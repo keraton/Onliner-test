@@ -15,6 +15,7 @@ public class FizzBuzzTest {
 
         // When
         assertEquals("1", fizzBuzz.getValue(1));
+        assertEquals("Fizz", fizzBuzz.getValue(3));
 
     }
 }
