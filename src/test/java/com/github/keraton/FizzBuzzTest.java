@@ -9,11 +9,13 @@ public class FizzBuzzTest {
     @Test
     public void should () {
         // Given
-
-        // When
         FizzBuzz fizzBuzz = new FizzBuzz();
 
+        // When
+        String value = fizzBuzz.getValue(1);
+
         // Then
+        Assert.assertEquals("1", value);
 
     }
 }
