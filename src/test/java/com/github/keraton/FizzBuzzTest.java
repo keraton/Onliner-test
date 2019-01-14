@@ -4,6 +4,8 @@ package com.github.keraton;
 import org.junit.Assert;
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
+
 public class FizzBuzzTest {
 
     @Test
@@ -12,10 +14,7 @@ public class FizzBuzzTest {
         FizzBuzz fizzBuzz = new FizzBuzz();
 
         // When
-        String value = fizzBuzz.getValue(1);
-
-        // Then
-        Assert.assertEquals("1", value);
+        assertEquals("1", fizzBuzz.getValue(1));
 
     }
 }
