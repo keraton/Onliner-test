@@ -1,11 +1,10 @@
 package com.github.keraton;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.Assert;
+import org.junit.Test;
 
-class FizzBuzzTest {
+public class FizzBuzzTest {
 
     @Test
     public void should () {
@@ -14,7 +13,7 @@ class FizzBuzzTest {
         // When
 
         // Then
-        Assertions.assertEquals(1, 0);
+        Assert.assertEquals(1, 1);
 
     }
 }
