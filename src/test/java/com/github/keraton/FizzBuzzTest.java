@@ -11,9 +11,9 @@ public class FizzBuzzTest {
         // Given
 
         // When
+        FizzBuzz fizzBuzz = new FizzBuzz();
 
         // Then
-        Assert.assertEquals(3, 3);
 
     }
 }
