@@ -13,7 +13,7 @@ public class FizzBuzzTest {
         // When
 
         // Then
-        Assert.assertEquals(1, 1);
+        Assert.assertEquals(3, 3);
 
     }
 }
