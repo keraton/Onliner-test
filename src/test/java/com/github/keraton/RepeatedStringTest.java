@@ -12,6 +12,7 @@ public class RepeatedStringTest {
         // When
         assertEquals(1, repeatedString("a", 1));
         assertEquals(2, repeatedString("aba", 1));
+        assertEquals(3, repeatedString("aaa", 1));
 
 
     }
