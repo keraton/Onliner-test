@@ -11,7 +11,7 @@ public class RepeatedStringTest {
     public void should () {
         // When
         assertEquals(1, repeatedString("a", 1));
-        assertEquals(1, repeatedString("aba", 1));
+        assertEquals(2, repeatedString("aba", 3));
         assertEquals(1, repeatedString("aaa", 1));
 
 
