@@ -7,9 +7,16 @@ public class RepeatedString {
     // 1 <= n <= 10^12
     // The letter a
     static long repeatedString(String s, long n) {
-        return  s.chars()
-                 .filter( c -> c == 'a')
-                 .count();
+        int count = 0;
+        int charIndex = 0;
+        while (charIndex < n) {
+            char c = s.charAt(charIndex);
+            if (c == 'a')
+                count++;
+            charIndex++;
+        }
+
+        return count;
     }
 
 }
