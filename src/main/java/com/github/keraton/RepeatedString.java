@@ -15,7 +15,7 @@ public class RepeatedString {
         }
 
         if (s.length() < n) {
-            count++;
+            count += n - s.length();
         }
         return count;
     }
