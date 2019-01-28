@@ -20,7 +20,7 @@ public class RepeatedString {
                     count++;
             }
 
-            
+
         }
         return count;
     }
