@@ -7,7 +7,7 @@ public class RepeatedString {
     // 1 <= n <= 10^12
     // The letter a
     static long repeatedString(String s, long n) {
-        return 1;
+        return s.length();
     }
 
 }

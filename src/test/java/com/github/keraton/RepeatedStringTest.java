@@ -11,6 +11,7 @@ public class RepeatedStringTest {
     public void should_repeat_string () {
         // When
         assertEquals(1, repeatedString("a", 1));
+        assertEquals(2, repeatedString("aa", 2));
 
 
     }
