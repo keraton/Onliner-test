@@ -15,7 +15,7 @@ public class RepeatedStringTest {
         assertEquals(1, repeatedString("ab", 2));
         assertEquals(3, repeatedString("aaa", 3));
         assertEquals(2, repeatedString("aaa", 2));
-
+        assertEquals(4, repeatedString("aaa", 4));
 
     }
 

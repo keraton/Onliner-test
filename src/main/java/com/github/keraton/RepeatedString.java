@@ -13,6 +13,10 @@ public class RepeatedString {
             if (s.charAt(i) == 'a')
                 count++;
         }
+
+        if (s.length() < n) {
+            count++;
+        }
         return count;
     }
 
