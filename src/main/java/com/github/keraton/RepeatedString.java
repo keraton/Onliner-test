@@ -16,7 +16,8 @@ public class RepeatedString {
             count = getCount(s, count, length);
 
             if (s.length() < n - s.length()) {
-                count++;
+                length = Math.min(s.length(), n - (2 * s.length()));
+                count = getCount(s, count, length);
             }
         }
         
