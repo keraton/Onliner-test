@@ -11,14 +11,12 @@ public class RepeatedString {
         long length = Math.min(s.length(), n);
         count = getCount(s, count, length);
 
-        if (s.length() < n) {
-            length = Math.min(s.length(), n - s.length());
+        long tempLength = n;
+        while (s.length() < tempLength) {
+            length = Math.min(s.length(), tempLength - s.length());
             count = getCount(s, count, length);
 
-            if (s.length() < n - s.length()) {
-                length = Math.min(s.length(), n - (2 * s.length()));
-                count = getCount(s, count, length);
-            }
+            tempLength = tempLength - s.length();
         }
         
 
