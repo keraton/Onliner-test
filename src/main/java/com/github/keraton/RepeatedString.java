@@ -8,7 +8,8 @@ public class RepeatedString {
     // The letter a
     static long repeatedString(String s, long n) {
         int count = 0;
-        for (int i=0; i<s.length(); i++) {
+        long length = Math.min(s.length(), n);
+        for (int i=0; i<length; i++) {
             if (s.charAt(i) == 'a')
                 count++;
         }
