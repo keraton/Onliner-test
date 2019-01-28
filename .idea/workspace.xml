@@ -46,7 +46,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="886" />
+          <entry key="JAVA" value="947" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="XML" value="27" />
         </counts>
@@ -81,8 +81,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/RepeatedStringTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="400">
-                  <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+                <state relative-caret-position="420">
+                  <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -99,8 +99,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/RepeatedString.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="440">
-                      <caret line="22" selection-start-line="22" selection-end-line="22" />
+                    <state relative-caret-position="340">
+                      <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
                     </state>
                   </provider>
                 </entry>
@@ -337,15 +337,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RepeatedStringTest - 2019.01.24 at 23h 27m 34s.xml">
-      <configuration name="RepeatedStringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RepeatedStringTest_should_repeat_string - 2019.01.29 at 00h 24m 27s.xml">
-      <configuration name="RepeatedStringTest.should_repeat_string" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RepeatedStringTest - 2019.01.29 at 00h 27m 17s.xml">
-      <configuration name="RepeatedStringTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RepeatedStringTest - 2019.01.29 at 00h 29m 52s.xml">
       <configuration name="RepeatedStringTest" configurationId="JUnit" />
     </history-entry>
@@ -365,6 +356,15 @@
       <configuration name="RepeatedStringTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RepeatedStringTest - 2019.01.29 at 00h 43m 45s.xml">
+      <configuration name="RepeatedStringTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepeatedStringTest - 2019.01.29 at 00h 50m 00s.xml">
+      <configuration name="RepeatedStringTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepeatedStringTest - 2019.01.29 at 00h 50m 28s.xml">
+      <configuration name="RepeatedStringTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepeatedStringTest - 2019.01.29 at 00h 52m 35s.xml">
       <configuration name="RepeatedStringTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -418,7 +418,9 @@
     <MESSAGE value="test 6" />
     <MESSAGE value="test 7" />
     <MESSAGE value="test 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 8" />
+    <MESSAGE value="test 9" />
+    <MESSAGE value="test 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -462,15 +464,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/RepeatedString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="340">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/RepeatedStringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="420">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
