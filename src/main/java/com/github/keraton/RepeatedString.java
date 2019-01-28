@@ -15,7 +15,12 @@ public class RepeatedString {
         }
 
         if (s.length() < n) {
-            count += n - s.length();
+            for (int i=0; i < n - s.length(); i++) {
+                if(s.charAt(i) == 'a')
+                    count++;
+            }
+
+            
         }
         return count;
     }
