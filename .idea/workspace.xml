@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="afb542dd-f654-4ff5-9915-d9f70206a3f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/keraton/RepeatedString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/keraton/RepeatedString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/github/keraton/RepeatedStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/keraton/RepeatedStringTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,10 +17,11 @@
     <session id="-550653498">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -45,7 +45,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="419" />
+          <entry key="JAVA" value="440" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="XML" value="27" />
         </counts>
@@ -59,7 +59,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pom.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="320">
+                <state relative-caret-position="560">
                   <caret line="28" selection-start-line="28" selection-end-line="28" />
                 </state>
               </provider>
@@ -77,7 +77,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/FizzBuzzTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
+                <state relative-caret-position="340">
                   <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -89,8 +89,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/RepeatedStringTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+                <state relative-caret-position="200">
+                  <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -101,12 +101,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/RepeatedString.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+                <state relative-caret-position="500">
+                  <caret line="25" selection-start-line="25" selection-end-line="25" />
                 </state>
               </provider>
             </entry>
@@ -132,8 +132,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/keraton/FizzBuzzTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/keraton/FizzBuzz.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/github/keraton/RepeatedStringTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/keraton/RepeatedString.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/keraton/RepeatedStringTest.java" />
       </list>
     </option>
   </component>
@@ -146,136 +146,27 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="tcr-sandbox" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="tcr-sandbox" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1289" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2610" />
     <option name="y" value="23" />
-    <option name="width" value="2149" />
-    <option name="height" value="1413" />
+    <option name="width" value="1958" />
+    <option name="height" value="1280" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcrsandbox" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcrsandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcrsandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcrsandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcrsandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcrsandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcrsandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="keraton" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcrsandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcrsandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcrsandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcrsandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcrsandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="keraton" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Course" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548058159639" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548717849682" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
@@ -298,7 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RepeatedStringTest">
+  <component name="RunManager" selected="JUnit.RepeatedStringTest.should_repeat_string">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -343,6 +234,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RepeatedStringTest.should_repeat_string" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tcrsandbox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.keraton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.keraton" />
+      <option name="MAIN_CLASS_NAME" value="com.github.keraton.RepeatedStringTest" />
+      <option name="METHOD_NAME" value="should_repeat_string" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -369,9 +277,11 @@
     <list>
       <item itemvalue="JUnit.FizzBuzzTest.should" />
       <item itemvalue="JUnit.RepeatedStringTest" />
+      <item itemvalue="JUnit.RepeatedStringTest.should_repeat_string" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RepeatedStringTest.should_repeat_string" />
         <item itemvalue="JUnit.RepeatedStringTest" />
         <item itemvalue="JUnit.FizzBuzzTest.should" />
       </list>
@@ -428,9 +338,12 @@
     <history-entry file="RepeatedStringTest - 2019.01.21 at 09h 07m 04s.xml">
       <configuration name="RepeatedStringTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RepeatedStringTest - 2019.01.24 at 23h 27m 34s.xml">
+      <configuration name="RepeatedStringTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1425" y="23" width="1896" height="1413" extended-state="0" />
+    <frame x="1280" y="23" width="3440" height="1413" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2518878" />
@@ -440,15 +353,16 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946064" weight="0.32973805" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49892125" visible="true" weight="0.39984593" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49895614" weight="0.32961375" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49843425" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32973805" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="8" sideWeight="0.5010787" side_tool="true" visible="true" weight="0.39984593" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49911714" visible="true" weight="0.29583976" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50088286" side_tool="true" visible="true" weight="0.29583976" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32973805" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32973805" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -459,7 +373,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="PlantUML" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.32985288" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.18569747" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -469,26 +383,17 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="test 0" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 0" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/com/github/keraton/FizzBuzz.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/FizzBuzzTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="560">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
@@ -499,10 +404,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/RepeatedStringTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/FizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="340">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -511,8 +416,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/RepeatedString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        <state relative-caret-position="500">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/RepeatedStringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
