@@ -9,7 +9,7 @@ public class RepeatedString {
     static long repeatedString(String s, long n) {
         int length = s.length();
         long multiply = Math.max(1, n / length);
-        
+
         long count = getCount(s,  n) * multiply;
         long rest = n - (length * multiply);
         if (rest > 0) {

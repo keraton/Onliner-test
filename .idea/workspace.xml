@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afb542dd-f654-4ff5-9915-d9f70206a3f1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/keraton/RepeatedString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/keraton/RepeatedString.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,7 +46,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1331" />
+          <entry key="JAVA" value="1348" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="XML" value="27" />
         </counts>
@@ -80,8 +81,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/RepeatedStringTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="460">
-                  <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+                <state relative-caret-position="140">
+                  <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -98,8 +99,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/RepeatedString.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="260">
-                      <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+                    <state relative-caret-position="80">
+                      <caret line="4" selection-start-line="4" selection-end-line="30" />
                     </state>
                   </provider>
                 </entry>
@@ -173,10 +174,70 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Course" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcrsandbox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcrsandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcrsandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcrsandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcrsandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcrsandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcrsandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="keraton" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548721920450" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548805105101" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="ignore_missing_gitignore" value="true" />
@@ -336,15 +397,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RepeatedStringTest - 2019.01.29 at 01h 21m 06s.xml">
-      <configuration name="RepeatedStringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RepeatedStringTest - 2019.01.29 at 01h 22m 57s.xml">
-      <configuration name="RepeatedStringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RepeatedStringTest - 2019.01.29 at 01h 23m 54s.xml">
-      <configuration name="RepeatedStringTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RepeatedStringTest - 2019.01.29 at 01h 24m 25s.xml">
       <configuration name="RepeatedStringTest" configurationId="JUnit" />
     </history-entry>
@@ -366,12 +418,21 @@
     <history-entry file="RepeatedStringTest - 2019.01.29 at 01h 30m 32s.xml">
       <configuration name="RepeatedStringTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RepeatedStringTest - 2019.01.29 at 01h 32m 04s.xml">
+      <configuration name="RepeatedStringTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepeatedStringTest - 2019.01.29 at 01h 32m 33s.xml">
+      <configuration name="RepeatedStringTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepeatedStringTest - 2019.01.29 at 01h 33m 02s.xml">
+      <configuration name="RepeatedStringTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="3440" height="1413" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2518878" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18304886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -381,7 +442,7 @@
       <window_info anchor="bottom" id="Educational.CheckDetails" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49764568" visible="true" weight="0.32896763" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49764568" visible="true" weight="0.32896763" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49823424" weight="0.3990755" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -407,9 +468,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="test 4" />
-    <MESSAGE value="test 5" />
-    <MESSAGE value="test 6" />
     <MESSAGE value="test 7" />
     <MESSAGE value="test 8" />
     <MESSAGE value="test 9" />
@@ -432,7 +490,10 @@
     <MESSAGE value="test 26" />
     <MESSAGE value="test 27" />
     <MESSAGE value="test 28" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 28" />
+    <MESSAGE value="test 29" />
+    <MESSAGE value="test 30" />
+    <MESSAGE value="test 31" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 31" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -474,20 +535,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/RepeatedStringTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/RepeatedString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="80">
+          <caret line="4" selection-start-line="4" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/RepeatedString.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/RepeatedStringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="140">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
