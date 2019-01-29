@@ -10,7 +10,6 @@ public class RepeatedString {
         long count = 0;
         long tempLength = n;
 
-        do {
             long length = Math.min(s.length(), tempLength);
             count += getCount(s, length);
 
@@ -19,7 +18,12 @@ public class RepeatedString {
 
             tempLength = tempLength - (s.length() * div);
 
-        } while (tempLength > 0);
+        if (tempLength > 0) {
+            length = Math.min(s.length(), tempLength);
+            count += getCount(s, length);
+
+
+        }
         
 
         return count;
