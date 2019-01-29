@@ -7,7 +7,7 @@ public class RepeatedString {
     // 1 <= n <= 10^12
     // The letter a
     static long repeatedString(String s, long n) {
-        long count = getCount(s, 0, n);
+        long count = getCount(s,  n);
 
         long div = Math.max(1, n / s.length());
         count = count * div;
@@ -15,21 +15,18 @@ public class RepeatedString {
         long rest = n - (s.length() * div);
 
         if (rest > 0) {
-            count = getCount(s, count, rest);
+            count += getCount(s, rest);
 
         }
 
         return count;
     }
 
-    private static long getCount(String s, long count, long rest) {
-        long length;
-        length = Math.min(s.length(), rest);
-        count += getCount(s, length);
-        return count;
+    private static long getCount(String s,  long rest) {
+        return getCounts(s, Math.min(s.length(), rest));
     }
 
-    private static long getCount(String s, long length) {
+    private static long getCounts(String s, long length) {
         long count = 0;
         for (int i = 0; i < length; i++) {
             if (s.charAt(i) == 'a')
