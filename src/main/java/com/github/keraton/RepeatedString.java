@@ -7,13 +7,17 @@ public class RepeatedString {
     // 1 <= n <= 10^12
     // The letter a
     static long repeatedString(String s, long n) {
-        long multiply = Math.max(1, n / s.length());
-        long count = getCount(s,  n) * multiply;
+        int length = s.length();
 
-        long rest = n - (s.length() * multiply);
+        long multiply = Math.max(1, n / length);
+
+        long count = 0;
+        long rest = n - (length * multiply);
         if (rest > 0) {
-            count += getCount(s, rest);
+            count = getCount(s, rest);
         }
+        
+        count += getCount(s,  n) * multiply;
 
         return count;
     }
