@@ -12,7 +12,7 @@ public class RepeatedString {
 
         do {
             long length = Math.min(s.length(), tempLength);
-            count = count + getCount(s, length);
+            count += getCount(s, length);
 
             long div = Math.max(1, tempLength / s.length());
             count = count * div;
