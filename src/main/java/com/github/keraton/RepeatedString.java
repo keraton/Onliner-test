@@ -9,14 +9,12 @@ public class RepeatedString {
     static long repeatedString(String s, long n) {
         long count = getCount(s,  n);
 
-        long div = Math.max(1, n / s.length());
-        count = count * div;
+        long multiply = Math.max(1, n / s.length());
+        count = count * multiply;
 
-        long rest = n - (s.length() * div);
-
+        long rest = n - (s.length() * multiply);
         if (rest > 0) {
             count += getCount(s, rest);
-
         }
 
         return count;
