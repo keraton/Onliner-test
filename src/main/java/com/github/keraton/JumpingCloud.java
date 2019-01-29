@@ -6,7 +6,7 @@ public class JumpingCloud {
         int loc = 0;
         int jump = 0;
         while (loc < c.length - 1) {
-            loc++;
+            loc += 2;
             jump++;
         }
         return jump;

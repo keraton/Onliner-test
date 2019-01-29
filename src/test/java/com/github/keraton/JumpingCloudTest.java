@@ -11,6 +11,7 @@ public class JumpingCloudTest {
     public void should () {
 
         assertEquals(1, jumpingOnClouds(0, 0));
+        assertEquals(1, jumpingOnClouds(0, 0, 0));
 
     }
 
