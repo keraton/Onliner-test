@@ -2,15 +2,16 @@ package com.github.keraton;
 
 import org.junit.Test;
 
+import static com.github.keraton.JumpingCloud.jumpingOnClouds;
+import static org.junit.Assert.assertEquals;
+
 public class JumpingCloudTest {
 
     @Test
     public void should () {
-        // Given
 
-        // When
-
-        // Then
+        assertEquals(1, jumpingOnClouds(0, 0));
 
     }
+
 }
