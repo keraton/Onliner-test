@@ -8,11 +8,9 @@ public class RepeatedString {
     // The letter a
     static long repeatedString(String s, long n) {
         int length = s.length();
-        long count = 0;
         long multiply = Math.max(1, n / length);
-
-
-        count = getCount(s,  n) * multiply;
+        
+        long count = getCount(s,  n) * multiply;
         long rest = n - (length * multiply);
         if (rest > 0) {
             count += getCount(s, rest);
