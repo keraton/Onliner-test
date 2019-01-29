@@ -12,7 +12,7 @@ public class RepeatedString {
 
         do {
             long length = Math.min(s.length(), tempLength);
-            count = getCount(s, count, length);
+            count = count + getCount(s, length);
 
             long div = Math.max(1, tempLength / s.length());
             count = count * div;
@@ -25,7 +25,8 @@ public class RepeatedString {
         return count;
     }
 
-    private static long getCount(String s, long count, long length) {
+    private static long getCount(String s, long length) {
+        long count = 0;
         for (int i = 0; i < length; i++) {
             if (s.charAt(i) == 'a')
                 count++;
