@@ -8,16 +8,14 @@ public class RepeatedString {
     // The letter a
     static long repeatedString(String s, long n) {
         int count = 0;
-        long length = Math.min(s.length(), n);
-        count = getCount(s, count, length);
-
         long tempLength = n;
-        while (s.length() < tempLength) {
-            length = Math.min(s.length(), tempLength - s.length());
+        do {
+            long length = Math.min(s.length(), tempLength);
             count = getCount(s, count, length);
 
             tempLength = tempLength - s.length();
-        }
+
+        } while (tempLength > 0);
         
 
         return count;
