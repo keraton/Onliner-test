@@ -45,7 +45,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1188" />
+          <entry key="JAVA" value="1243" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="XML" value="27" />
         </counts>
@@ -98,8 +98,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/RepeatedString.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="380">
-                      <caret line="19" column="56" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="56" />
+                    <state relative-caret-position="340">
+                      <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
                     </state>
                   </provider>
                 </entry>
@@ -176,7 +176,7 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548721262439" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548721430745" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="ignore_missing_gitignore" value="true" />
@@ -336,18 +336,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RepeatedStringTest - 2019.01.29 at 00h 55m 09s.xml">
-      <configuration name="RepeatedStringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RepeatedStringTest - 2019.01.29 at 00h 56m 38s.xml">
-      <configuration name="RepeatedStringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RepeatedStringTest - 2019.01.29 at 01h 05m 40s.xml">
-      <configuration name="RepeatedStringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RepeatedStringTest - 2019.01.29 at 01h 07m 45s.xml">
-      <configuration name="RepeatedStringTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RepeatedStringTest - 2019.01.29 at 01h 07m 51s.xml">
       <configuration name="RepeatedStringTest" configurationId="JUnit" />
     </history-entry>
@@ -364,6 +352,18 @@
       <configuration name="RepeatedStringTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RepeatedStringTest - 2019.01.29 at 01h 18m 51s.xml">
+      <configuration name="RepeatedStringTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepeatedStringTest - 2019.01.29 at 01h 19m 12s.xml">
+      <configuration name="RepeatedStringTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepeatedStringTest - 2019.01.29 at 01h 20m 24s.xml">
+      <configuration name="RepeatedStringTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepeatedStringTest - 2019.01.29 at 01h 21m 06s.xml">
+      <configuration name="RepeatedStringTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepeatedStringTest - 2019.01.29 at 01h 22m 57s.xml">
       <configuration name="RepeatedStringTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -425,7 +425,11 @@
     <MESSAGE value="test 14" />
     <MESSAGE value="test 15" />
     <MESSAGE value="test 16" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 16" />
+    <MESSAGE value="test 17" />
+    <MESSAGE value="test 18" />
+    <MESSAGE value="test 19" />
+    <MESSAGE value="test 20" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 20" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -479,8 +483,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/RepeatedString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="56" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="56" />
+        <state relative-caret-position="340">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>
