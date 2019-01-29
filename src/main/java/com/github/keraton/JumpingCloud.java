@@ -9,6 +9,6 @@ public class JumpingCloud {
             loc++;
             jump++;
         }
-        return 1;
+        return jump;
     }
 }
