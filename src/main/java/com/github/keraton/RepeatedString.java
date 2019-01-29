@@ -19,12 +19,8 @@ public class RepeatedString {
     }
 
     private static long getCount(String s,  long rest) {
-        return getCounts(s, Math.min(s.length(), rest));
-    }
-
-    private static long getCounts(String s, long length) {
         long count = 0;
-        for (int i = 0; i < length; i++) {
+        for (int i = 0; i < Math.min(s.length(), rest); i++) {
             if (s.charAt(i) == 'a')
                 count++;
         }
