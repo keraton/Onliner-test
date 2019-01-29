@@ -14,7 +14,7 @@ public class RepeatedString {
             long length = Math.min(s.length(), tempLength);
             count = getCount(s, count, length);
 
-            long div = tempLength / s.length();
+            long div = Math.max(1, tempLength / s.length());
             count = count * div;
 
             tempLength = tempLength - (s.length() * div);

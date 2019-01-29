@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afb542dd-f654-4ff5-9915-d9f70206a3f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/keraton/RepeatedString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/keraton/RepeatedString.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -46,7 +45,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1075" />
+          <entry key="JAVA" value="1154" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="XML" value="27" />
         </counts>
@@ -81,8 +80,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/RepeatedStringTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="440">
-                  <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+                <state relative-caret-position="460">
+                  <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -99,8 +98,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/RepeatedString.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="360">
-                      <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+                    <state relative-caret-position="380">
+                      <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
                     </state>
                   </provider>
                 </entry>
@@ -177,7 +176,7 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548719793847" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548720749770" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="ignore_missing_gitignore" value="true" />
@@ -337,18 +336,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RepeatedStringTest - 2019.01.29 at 00h 32m 22s.xml">
-      <configuration name="RepeatedStringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RepeatedStringTest - 2019.01.29 at 00h 33m 52s.xml">
-      <configuration name="RepeatedStringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RepeatedStringTest - 2019.01.29 at 00h 41m 03s.xml">
-      <configuration name="RepeatedStringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RepeatedStringTest - 2019.01.29 at 00h 42m 03s.xml">
-      <configuration name="RepeatedStringTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RepeatedStringTest - 2019.01.29 at 00h 43m 45s.xml">
       <configuration name="RepeatedStringTest" configurationId="JUnit" />
     </history-entry>
@@ -367,6 +354,18 @@
     <history-entry file="RepeatedStringTest - 2019.01.29 at 00h 56m 38s.xml">
       <configuration name="RepeatedStringTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RepeatedStringTest - 2019.01.29 at 01h 05m 40s.xml">
+      <configuration name="RepeatedStringTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepeatedStringTest - 2019.01.29 at 01h 07m 45s.xml">
+      <configuration name="RepeatedStringTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepeatedStringTest - 2019.01.29 at 01h 07m 51s.xml">
+      <configuration name="RepeatedStringTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepeatedStringTest - 2019.01.29 at 01h 09m 38s.xml">
+      <configuration name="RepeatedStringTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="3440" height="1413" extended-state="6" />
@@ -382,15 +381,15 @@
       <window_info anchor="bottom" id="Educational.CheckDetails" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49793997" visible="true" weight="0.32896763" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49764568" visible="true" weight="0.32896763" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49823424" weight="0.3990755" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49882284" weight="0.29583976" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50206006" side_tool="true" visible="true" weight="0.32896763" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5023543" side_tool="true" visible="true" weight="0.32896763" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32973805" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32973805" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4997057" weight="0.32973805" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -422,7 +421,8 @@
     <MESSAGE value="test 10" />
     <MESSAGE value="test 11" />
     <MESSAGE value="test 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 12" />
+    <MESSAGE value="test 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -466,8 +466,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/RepeatedStringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        <state relative-caret-position="460">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -476,8 +476,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/RepeatedString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+        <state relative-caret-position="380">
+          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
         </state>
       </provider>
     </entry>
