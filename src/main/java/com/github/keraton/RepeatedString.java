@@ -17,7 +17,7 @@ public class RepeatedString {
             long div = Math.max(1, tempLength / s.length());
             count = count * div;
 
-            tempLength = tempLength % s.length();
+            tempLength = tempLength - (s.length() * div);
 
         } while (tempLength > 0);
         
