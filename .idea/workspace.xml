@@ -164,7 +164,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="1280" />
     <option name="y" value="23" />
     <option name="width" value="3440" />
@@ -237,8 +237,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548805105101" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548805164022" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="settings.editor.selected.configurable" value="LimitedWIP" />
@@ -263,7 +264,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RepeatedStringTest">
+  <component name="RunManager" selected="Android JUnit.JumpingCloudTest">
+    <configuration name="JumpingCloudTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tcrsandbox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.keraton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.keraton" />
+      <option name="MAIN_CLASS_NAME" value="com.github.keraton.JumpingCloudTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -352,9 +368,11 @@
       <item itemvalue="JUnit.FizzBuzzTest.should" />
       <item itemvalue="JUnit.RepeatedStringTest" />
       <item itemvalue="JUnit.RepeatedStringTest.should_repeat_string" />
+      <item itemvalue="Android JUnit.JumpingCloudTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Android JUnit.JumpingCloudTest" />
         <item itemvalue="JUnit.RepeatedStringTest" />
         <item itemvalue="JUnit.RepeatedStringTest.should_repeat_string" />
         <item itemvalue="JUnit.FizzBuzzTest.should" />
