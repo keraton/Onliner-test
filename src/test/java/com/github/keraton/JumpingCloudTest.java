@@ -16,6 +16,7 @@ public class JumpingCloudTest {
         assertEquals(3, jumpingOnClouds(0, 0, 0, 0, 0, 0, 0));
         assertEquals(4, jumpingOnClouds(0, 0, 1, 0, 0, 0, 0));
         assertEquals(4, jumpingOnClouds(0, 0, 1, 0, 0, 1, 0));
+        assertEquals(3, jumpingOnClouds(0, 0, 0, 0, 1, 0));
 
     }
 
