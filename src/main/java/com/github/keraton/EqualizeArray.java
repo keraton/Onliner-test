@@ -17,6 +17,7 @@ public class EqualizeArray {
                 alreadyIn.put(ar, ++counter);
             }
         }
-        return alreadyIn.keySet().size() - 1;
+        int total = alreadyIn.keySet().size();
+        return total - 1;
     }
 }
