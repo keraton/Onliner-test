@@ -1,12 +1,17 @@
 package com.github.keraton;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class EqualizeArray {
 
     static int equalizeArray(int... arr) {
         int diff = 0;
-        int temp = arr[0];
+        Set<Integer> alreadyIn = new HashSet<>();
+        alreadyIn.add(arr[0]);
         for (int ar : arr) {
-            if (temp != ar) {
+            if (!alreadyIn.contains(ar)) {
+                alreadyIn.add(ar);
                 diff++;
             }
         }
