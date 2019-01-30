@@ -17,7 +17,7 @@ public class EqualizeArrayTest {
         assertEquals(1, equalizeArray(1, 2));
         assertEquals(2, equalizeArray(1, 2, 3));
         assertEquals(1, equalizeArray(1, 2, 1));
-        //assertEquals(2, equalizeArray(1, 2, 1, 2));
+        assertEquals(2, equalizeArray(1, 2, 1, 2));
 
         // Then
 
