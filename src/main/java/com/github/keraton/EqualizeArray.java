@@ -7,7 +7,6 @@ public class EqualizeArray {
 
     static int equalizeArray(int... arr) {
         Map<Integer, Integer> alreadyIn = new HashMap<>();
-        alreadyIn.put(arr[0], 1);
         for (int ar : arr) {
             if (!alreadyIn.containsKey(ar)) {
                 alreadyIn.put(ar, 1);
