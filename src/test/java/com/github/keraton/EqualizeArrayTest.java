@@ -11,6 +11,7 @@ public class EqualizeArrayTest {
 
         // When
         Assert.assertEquals(0, EqualizeArray.equalizeArray(1));
+        Assert.assertEquals(0, EqualizeArray.equalizeArray(1, 1));
 
         // Then
 
