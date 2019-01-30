@@ -1,5 +1,6 @@
 package com.github.keraton;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 public class EqualizeArrayTest {
@@ -9,6 +10,7 @@ public class EqualizeArrayTest {
         // Given
 
         // When
+        Assert.assertEquals(0, EqualizeArray.equalizeArray(1));
 
         // Then
 
