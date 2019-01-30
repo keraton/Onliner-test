@@ -19,6 +19,6 @@ public class EqualizeArray {
                 alreadyIn.put(ar, ++counter);
             }
         }
-        return diff;
+        return alreadyIn.keySet().size() - 1;
     }
 }
