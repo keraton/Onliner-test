@@ -13,11 +13,11 @@ public class EqualizeArray {
             }
             else {
                 Integer counter = alreadyIn.get(ar);
-                alreadyIn.put(ar, ++counter);
+                alreadyIn.put(ar, counter + 1);
             }
         }
-        int total = alreadyIn.size();
+        int total = arr.length;
         Integer maxNumber = alreadyIn.values().stream().max(Integer::compareTo).get();
-        return total - 1;
+        return total - maxNumber;
     }
 }
