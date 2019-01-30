@@ -18,6 +18,7 @@ public class EqualizeArray {
             }
         }
         int total = alreadyIn.size();
+        Integer maxNumber = alreadyIn.values().stream().max(Integer::compareTo).get();
         return total - 1;
     }
 }
