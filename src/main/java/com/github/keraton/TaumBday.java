@@ -8,8 +8,16 @@ public class TaumBday {
 
 
     static long taumBday(int b, int w, int bc, int wc, int z) {
-        BigInteger minResult = valueOf(Long.MAX_VALUE);
         int distance = 1;
+
+        BigInteger minResult = taumBdayWithDistance(b, w, bc, wc, z, distance);
+
+
+        return  minResult.longValue();
+    }
+
+    private static BigInteger taumBdayWithDistance(int b, int w, int bc, int wc, int z, int distance) {
+        BigInteger minResult = valueOf(Long.MAX_VALUE);
         if (bc > wc) {
             for (int i = b; i>=0 ; i= i - distance) {
                 BigInteger tempResult = getBigInteger(b, bc, wc, z, i);
@@ -41,9 +49,7 @@ public class TaumBday {
             minResult = minResult.add(valueOf(b).multiply(valueOf(bc)));
 
         }
-
-
-        return  minResult.longValue();
+        return minResult;
     }
 
     private static BigInteger getBigInteger(int b, int bc, int wc, int z, int i) {
