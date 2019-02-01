@@ -1,6 +1,5 @@
 package com.github.keraton;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import static com.github.keraton.TaumBday.taumBday;
@@ -15,6 +14,8 @@ public class TaumBdayTest {
         // When
         assertEquals(2, taumBday(1, 1, 1, 1, 1));
         assertEquals(5, taumBday(1, 1, 2, 3, 1));
+        assertEquals(3, taumBday(1, 1, 10, 1, 1));
+
 
         // Then
 
