@@ -9,6 +9,7 @@ public class TaumBday {
         if (bc > wc) {
             if (z > bc) {
                 minResult = (b*bc);
+                System.out.println(minResult);
             }
             else {
                 for (int i=0; i<=b ; i++) {
