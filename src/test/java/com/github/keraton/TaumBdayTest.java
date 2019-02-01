@@ -12,6 +12,7 @@ public class TaumBdayTest {
         // Given
 
         System.out.println(taumBday(1, 1, 1, 1, 1));
+        System.out.println(taumBday(27984, 1402, 619246, 615589, 247954));
         // When
 /*
         assertEquals(2, taumBday(1, 1, 1, 1, 1));
