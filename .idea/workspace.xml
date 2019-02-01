@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afb542dd-f654-4ff5-9915-d9f70206a3f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/keraton/TaumBday.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/keraton/TaumBday.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/keraton/TaumBdayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/keraton/TaumBdayTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,7 +45,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2785" />
+          <entry key="JAVA" value="2938" />
           <entry key="PLAIN_TEXT" value="18" />
           <entry key="XML" value="27" />
         </counts>
@@ -157,8 +155,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/TaumBday.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="340">
-                      <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+                    <state relative-caret-position="280">
+                      <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
                     </state>
                   </provider>
                 </entry>
@@ -202,8 +200,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/github/keraton/JumpingCloudTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/keraton/EqualizeArrayTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/keraton/EqualizeArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/keraton/TaumBday.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/keraton/TaumBdayTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/keraton/TaumBday.java" />
       </list>
     </option>
   </component>
@@ -333,7 +331,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549046482369" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549047322359" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -531,9 +529,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EqualizeArrayTest_should - 2019.01.30 at 09h 50m 19s.xml">
-      <configuration name="EqualizeArrayTest.should" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EqualizeArrayTest_should - 2019.01.30 at 09h 50m 34s.xml">
       <configuration name="EqualizeArrayTest.should" configurationId="JUnit" />
     </history-entry>
@@ -559,6 +554,9 @@
       <configuration name="TaumBdayTest.should" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TaumBdayTest_should - 2019.02.01 at 19h 38m 16s.xml">
+      <configuration name="TaumBdayTest.should" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaumBdayTest_should - 2019.02.01 at 19h 51m 24s.xml">
       <configuration name="TaumBdayTest.should" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -602,7 +600,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="test 40" />
     <MESSAGE value="test 41" />
     <MESSAGE value="test 42" />
     <MESSAGE value="test 43" />
@@ -627,7 +624,8 @@
     <MESSAGE value="test 62" />
     <MESSAGE value="test 63" />
     <MESSAGE value="test 64" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 64" />
+    <MESSAGE value="test 65" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 65" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -723,13 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/TaumBday.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/TaumBdayTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -737,6 +728,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/TaumBday.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
         </state>
       </provider>
     </entry>

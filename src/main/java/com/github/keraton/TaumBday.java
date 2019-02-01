@@ -18,6 +18,13 @@ public class TaumBday {
         }
         else {
             minResult = ((b+w) * bc ) + w * z;
+            for (int i = 0; i<b ; i++) {
+                int tempResult = (b * bc) + ((w-i)*bc) + (i*wc) + ((w-i)* z);
+                if (tempResult < minResult) {
+                    minResult = tempResult;
+                }
+            }
+
         }
 
 
