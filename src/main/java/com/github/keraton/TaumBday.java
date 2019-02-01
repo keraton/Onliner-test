@@ -13,7 +13,7 @@ public class TaumBday {
                 }
             }
 
-            minResult += (w*wc);
+            minResult = minResult + (w*wc);
         }
         else {
             for (int i = 0; i<=w ; i++) {
@@ -22,7 +22,7 @@ public class TaumBday {
                     minResult = tempResult;
                 }
             }
-            minResult += (b*bc);
+            minResult = minResult + (b*bc);
 
         }
 
