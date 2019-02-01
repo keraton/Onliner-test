@@ -10,28 +10,33 @@ public class TaumBday {
     static long taumBday(int b, int w, int bc, int wc, int z) {
         int distance = 1;
 
-        BigInteger minResult = taumBdayWithDistance(b, w, bc, wc, z, distance);
+        Index index = taumBdayWithDistance(b, w, bc, wc, z, distance);
 
 
-        return  minResult.longValue();
+        return  index.minResult.longValue();
     }
 
-    private static BigInteger taumBdayWithDistance(int b, int w, int bc, int wc, int z, int distance) {
+    static class Index {
+        BigInteger minResult;
+        int index;
+    }
+
+    private static Index taumBdayWithDistance(int b, int w, int bc, int wc, int z, int distance) {
         BigInteger minResult = valueOf(Long.MAX_VALUE);
+        int index = 0;
         if (bc > wc) {
-            for (int i = b; i>=0 ; i= i - distance) {
+            for (int i = b; i>=0 ; i=i-distance) {
                 BigInteger tempResult = getBigInteger(b, bc, wc, z, i);
 
                 if (tempResult.subtract(minResult).longValue() < 0 ) {
                     minResult = tempResult;
+                    index = i;
                 }
                 else {
                     break;
                 }
 
-
             }
-
             minResult = minResult.add(valueOf(w).multiply(valueOf(wc)));
         }
         else {
@@ -40,6 +45,7 @@ public class TaumBday {
 
                 if (tempResult.subtract(minResult).longValue() < 0 ) {
                     minResult = tempResult;
+                    index = i;
                 }
                 else {
                     break;
@@ -49,7 +55,10 @@ public class TaumBday {
             minResult = minResult.add(valueOf(b).multiply(valueOf(bc)));
 
         }
-        return minResult;
+        Index index1 = new Index();
+        index1.index = index;
+        index1.minResult = minResult;
+        return index1;
     }
 
     private static BigInteger getBigInteger(int b, int bc, int wc, int z, int i) {
