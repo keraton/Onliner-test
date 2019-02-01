@@ -4,7 +4,7 @@ public class TaumBday {
 
 
     static int taumBday(int b, int w, int bc, int wc, int z) {
-        int minResult = (b * bc) + (w * wc);
+        int minResult = Integer.MAX_VALUE;
         if (bc > wc) {
             for (int i=0; i<=b ; i++) {
                 int tempResult = (w * wc) + ((b-i)*wc) + (i*bc) + ((b-i)* z);
