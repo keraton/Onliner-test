@@ -5,7 +5,7 @@ public class TaumBday {
 
     static long taumBday(int b, int w, int bc, int wc, int z) {
         long minResult = Long.MAX_VALUE;
-        System.out.println(w*wc);
+        System.out.println(w*wc + b*bc);
         if (bc > wc) {
             if (z > bc) {
                 minResult = (b*bc);
