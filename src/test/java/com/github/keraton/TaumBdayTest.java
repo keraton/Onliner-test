@@ -18,6 +18,10 @@ public class TaumBdayTest {
         assertEquals(3, taumBday(1, 1, 1, 10, 1));
         assertEquals(11, taumBday(1, 1, 1, 10, 10));
 
+        // 10 + 40 = 50
+        // 10 + 10 + 20 =
+        assertEquals(40, taumBday(10, 10, 1, 4, 2));
+
 
         // Then
 
