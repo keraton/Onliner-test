@@ -7,19 +7,21 @@ public class TaumBday {
         long minResult = Long.MAX_VALUE;
         if (bc > wc) {
             for (int i=0; i<=b ; i++) {
-                long tempResult = (w*wc) + ((b-i)*wc) + (i*bc) + ((b-i)* z);
+                long tempResult = ((b-i)*wc) + (i*bc) + ((b-i)* z);
                 if (tempResult < minResult) {
                     minResult = tempResult;
                 }
             }
+            minResult += (w*wc);
         }
         else {
             for (int i = 0; i<=w ; i++) {
-                long tempResult = (b*bc) + ((w-i)*bc) + (i*wc) + ((w-i)* z);
+                long tempResult = ((w-i)*bc) + (i*wc) + ((w-i)* z);
                 if (tempResult < minResult) {
                     minResult = tempResult;
                 }
             }
+            minResult += (b*bc);
 
         }
 
