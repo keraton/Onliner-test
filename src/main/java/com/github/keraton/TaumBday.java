@@ -18,6 +18,11 @@ public class TaumBday {
                 if (tempResult.subtract(minResult).longValue() < 0 ) {
                     minResult = tempResult;
                 }
+                else {
+                    break;
+                }
+
+
             }
 
             System.out.println(minResult);
@@ -31,6 +36,9 @@ public class TaumBday {
                 BigInteger tempResult = r1.add(r2).add(r3);
                 if (tempResult.subtract(minResult).longValue() < 0 ) {
                     minResult = tempResult;
+                }
+                else {
+                    break;
                 }
             }
 
