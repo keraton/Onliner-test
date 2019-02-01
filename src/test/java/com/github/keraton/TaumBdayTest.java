@@ -11,7 +11,7 @@ public class TaumBdayTest {
     public void should() {
         // Given
 
-        System.out.println(taumBday(1, 1, 1, 1, 1));
+        System.out.println(taumBday(1, 1, 10, 1, 1));
         System.out.println(taumBday(27984, 1402, 619246, 615589, 247954));
         // When
 /*
