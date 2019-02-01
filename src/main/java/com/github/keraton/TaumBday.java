@@ -25,12 +25,9 @@ public class TaumBday {
         }
         else {
             for (int i=0; i<=w ; i++) {
-                BigInteger r1 = valueOf(w-i)
-                        .multiply(valueOf(bc));
-                BigInteger r2 = valueOf(i)
-                        .multiply(valueOf(wc));
-                BigInteger r3 = valueOf(w-i)
-                        .multiply(valueOf(z));
+                BigInteger r1 = valueOf(w-i).multiply(valueOf(bc));
+                BigInteger r2 = valueOf(i).multiply(valueOf(wc));
+                BigInteger r3 = valueOf(w-i).multiply(valueOf(z));
                 BigInteger tempResult = r1.add(r2).add(r3);
                 if (tempResult.subtract(minResult).longValue() < 0 ) {
                     minResult = tempResult;
