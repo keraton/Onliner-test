@@ -3,11 +3,11 @@ package com.github.keraton;
 public class TaumBday {
 
 
-    static int taumBday(int b, int w, int bc, int wc, int z) {
-        int minResult = Integer.MAX_VALUE;
+    static long taumBday(int b, int w, int bc, int wc, int z) {
+        long minResult = Long.MAX_VALUE;
         if (bc > wc) {
             for (int i=0; i<=b ; i++) {
-                int tempResult = (w * wc) + ((b-i)*wc) + (i*bc) + ((b-i)* z);
+                long tempResult = (w*wc) + ((b-i)*wc) + (i*bc) + ((b-i)* z);
                 if (tempResult < minResult) {
                     minResult = tempResult;
                 }
@@ -15,7 +15,7 @@ public class TaumBday {
         }
         else {
             for (int i = 0; i<=w ; i++) {
-                int tempResult = (b * bc) + ((w-i)*bc) + (i*wc) + ((w-i)* z);
+                long tempResult = (b*bc) + ((w-i)*bc) + (i*wc) + ((w-i)* z);
                 if (tempResult < minResult) {
                     minResult = tempResult;
                 }
