@@ -46,7 +46,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3247" />
+          <entry key="JAVA" value="3331" />
           <entry key="PLAIN_TEXT" value="18" />
           <entry key="XML" value="27" />
         </counts>
@@ -156,8 +156,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/TaumBday.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="715">
-                      <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+                    <state relative-caret-position="488">
+                      <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
                       <folding>
                         <element signature="imports" expanded="true" />
                       </folding>
@@ -335,7 +335,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549050315778" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549050999960" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -533,18 +533,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TaumBdayTest_should - 2019.02.01 at 20h 17m 01s.xml">
-      <configuration name="TaumBdayTest.should" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TaumBdayTest_should - 2019.02.01 at 20h 17m 25s.xml">
-      <configuration name="TaumBdayTest.should" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TaumBdayTest_should - 2019.02.01 at 20h 18m 14s.xml">
-      <configuration name="TaumBdayTest.should" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TaumBdayTest_should - 2019.02.01 at 20h 31m 01s.xml">
-      <configuration name="TaumBdayTest.should" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TaumBdayTest_should - 2019.02.01 at 20h 31m 39s.xml">
       <configuration name="TaumBdayTest.should" configurationId="JUnit" />
     </history-entry>
@@ -561,6 +549,18 @@
       <configuration name="TaumBdayTest.should" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TaumBdayTest_should - 2019.02.01 at 20h 41m 39s.xml">
+      <configuration name="TaumBdayTest.should" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaumBdayTest_should - 2019.02.01 at 20h 44m 02s.xml">
+      <configuration name="TaumBdayTest.should" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaumBdayTest_should - 2019.02.01 at 20h 45m 19s.xml">
+      <configuration name="TaumBdayTest.should" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaumBdayTest_should - 2019.02.01 at 20h 46m 20s.xml">
+      <configuration name="TaumBdayTest.should" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaumBdayTest_should - 2019.02.01 at 20h 51m 16s.xml">
       <configuration name="TaumBdayTest.should" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -604,10 +604,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="test 62" />
-    <MESSAGE value="test 63" />
-    <MESSAGE value="test 64" />
-    <MESSAGE value="test 65" />
     <MESSAGE value="test 66" />
     <MESSAGE value="test 67" />
     <MESSAGE value="test 68" />
@@ -629,7 +625,11 @@
     <MESSAGE value="test 84" />
     <MESSAGE value="test 85" />
     <MESSAGE value="test 86" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 86" />
+    <MESSAGE value="test 87" />
+    <MESSAGE value="test 88" />
+    <MESSAGE value="test 89" />
+    <MESSAGE value="test 90" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 90" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -737,8 +737,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/TaumBday.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+        <state relative-caret-position="488">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -9,10 +9,10 @@ public class TaumBday {
 
     static long taumBday(int b, int w, int bc, int wc, int z) {
         BigInteger minResult = valueOf(Long.MAX_VALUE);
+        int distance = 1;
         if (bc > wc) {
-            for (int i=b; i>=0 ; i--) {
+            for (int i = b; i>=0 ; i= i - distance) {
                 BigInteger tempResult = getBigInteger(b, bc, wc, z, i);
-
 
                 if (tempResult.subtract(minResult).longValue() < 0 ) {
                     minResult = tempResult;
@@ -27,7 +27,7 @@ public class TaumBday {
             minResult = minResult.add(valueOf(w).multiply(valueOf(wc)));
         }
         else {
-            for (int i=w; i>=0 ; i--) {
+            for (int i=w; i>=0 ; i = i - distance) {
                 BigInteger tempResult = getBigInteger(w, wc, bc, z, i);
 
                 if (tempResult.subtract(minResult).longValue() < 0 ) {
