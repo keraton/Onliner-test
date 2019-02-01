@@ -4,6 +4,6 @@ public class TaumBday {
 
 
     static int taumBday(int b, int w, int bc, int wc, int z) {
-        return 0;
+        return b + w;
     }
 }
