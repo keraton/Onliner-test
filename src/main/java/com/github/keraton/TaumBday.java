@@ -6,9 +6,8 @@ public class TaumBday {
     static int taumBday(int b, int w, int bc, int wc, int z) {
         int result1 = (b * bc) + (w * wc);
 
-        int minResult = 0;
+        int minResult = result1;
         if (bc > wc) {
-            minResult = result1;
             for (int i = 0; i<b ; i++) {
                 int tempResult = (w * wc) + ((b-i)*wc) + (i*bc) + ((b-i)* z);
                 if (tempResult < minResult) {
@@ -17,7 +16,6 @@ public class TaumBday {
             }
         }
         else {
-            minResult = result1;
             for (int i = 0; i<b ; i++) {
                 int tempResult = (b * bc) + ((w-i)*bc) + (i*wc) + ((w-i)* z);
                 if (tempResult < minResult) {
