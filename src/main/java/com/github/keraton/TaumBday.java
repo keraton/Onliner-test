@@ -25,6 +25,7 @@ public class TaumBday {
         else {
             if (z > wc) {
                 minResult = (w * wc);
+                System.out.println(minResult);
             }
             else {
                 for (int i = 0; i<=w ; i++) {
