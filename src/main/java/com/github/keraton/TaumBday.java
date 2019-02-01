@@ -39,7 +39,7 @@ public class TaumBday {
                 }
             }
 
-            minResult = minResult.add(valueOf(w).multiply(valueOf(wc)));
+            minResult = minResult.add(valueOf(b).multiply(valueOf(bc)));
 
         }
 
