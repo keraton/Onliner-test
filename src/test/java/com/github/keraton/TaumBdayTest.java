@@ -14,6 +14,7 @@ public class TaumBdayTest {
 
         // When
         assertEquals(2, taumBday(1, 1, 1, 1, 1));
+        assertEquals(5, taumBday(1, 1, 2, 3, 1));
 
         // Then
 
