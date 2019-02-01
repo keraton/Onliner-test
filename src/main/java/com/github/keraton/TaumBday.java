@@ -23,6 +23,7 @@ public class TaumBday {
                 }
             }
 
+            System.out.println(minResult);
             minResult = minResult.add(valueOf(w).multiply(valueOf(wc)));
         }
         else {
