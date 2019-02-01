@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="afb542dd-f654-4ff5-9915-d9f70206a3f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/keraton/TaumBday.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/keraton/TaumBday.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/keraton/TaumBdayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/keraton/TaumBdayTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,7 +46,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3182" />
+          <entry key="JAVA" value="3191" />
           <entry key="PLAIN_TEXT" value="18" />
           <entry key="XML" value="27" />
         </counts>
@@ -107,8 +108,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/TaumBdayTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="400">
-                  <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+                <state relative-caret-position="600">
+                  <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -155,8 +156,11 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/TaumBday.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="360">
-                      <caret line="18" selection-start-line="18" selection-end-line="23" selection-end-column="13" />
+                    <state relative-caret-position="665">
+                      <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+                      <folding>
+                        <element signature="imports" expanded="true" />
+                      </folding>
                     </state>
                   </provider>
                 </entry>
@@ -331,7 +335,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549048751043" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549049456736" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -574,15 +578,15 @@
       <window_info anchor="bottom" id="Educational.CheckDetails" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49735138" visible="true" weight="0.32896763" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49705708" weight="0.32896763" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49793997" weight="0.3986637" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49882284" weight="0.29583976" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5026486" side_tool="true" visible="true" weight="0.32896763" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50088286" side_tool="true" visible="true" weight="0.32973805" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32973805" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4997057" weight="0.32973805" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.49911714" visible="true" weight="0.32973805" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -723,8 +727,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/TaumBdayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        <state relative-caret-position="600">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -733,8 +737,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/TaumBday.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" selection-start-line="18" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="665">
+          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

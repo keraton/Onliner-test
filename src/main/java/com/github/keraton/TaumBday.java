@@ -18,7 +18,7 @@ public class TaumBday {
                 BigInteger r3 = valueOf(i)
                         .multiply(valueOf(bc));
                 BigInteger tempResult = r1.add(r2).add(r3);
-                if (tempResult.subtract(minResult).longValue() > 0 ) {
+                if (tempResult.subtract(minResult).longValue() < 0 ) {
                     minResult = tempResult;
                 }
             }
@@ -34,7 +34,7 @@ public class TaumBday {
                 BigInteger r3 = valueOf(i)
                         .multiply(valueOf(wc));
                 BigInteger tempResult = r1.add(r2).add(r3);
-                if (tempResult.subtract(minResult).longValue() > 0 ) {
+                if (tempResult.subtract(minResult).longValue() < 0 ) {
                     minResult = tempResult;
                 }
             }
