@@ -9,6 +9,12 @@ public class TaumBday {
         int minResult = 0;
         if (bc > wc) {
             minResult = ((b+w) * wc ) + b * z;
+            for (int i = 0; i<b ; i++) {
+                int tempResult = (w * wc) + ((b-i)*wc) + (i*bc) + ((b-i)* z);
+                if (tempResult < minResult) {
+                    minResult = tempResult;
+                }
+            }
         }
         else {
             minResult = ((b+w) * bc ) + w * z;
