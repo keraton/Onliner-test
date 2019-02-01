@@ -7,8 +7,9 @@ public class TaumBday {
         int result1 = (b * bc) + (w * wc);
 
         int result2 = bc > wc ?
-                        ((b+w) * wc ) + b * z : ((b+w) * bc ) + w * z;
-        
+                        ((b+w) * wc ) + b * z :
+                        ((b+w) * bc ) + w * z;
+
         return Math.min(result1, result2);
     }
 }

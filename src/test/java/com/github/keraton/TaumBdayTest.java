@@ -16,6 +16,7 @@ public class TaumBdayTest {
         assertEquals(5, taumBday(1, 1, 2, 3, 1));
         assertEquals(3, taumBday(1, 1, 10, 1, 1));
         assertEquals(3, taumBday(1, 1, 1, 10, 1));
+        assertEquals(11, taumBday(1, 1, 1, 10, 10));
 
 
         // Then
