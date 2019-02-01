@@ -4,19 +4,18 @@ public class TaumBday {
 
 
     static int taumBday(int b, int w, int bc, int wc, int z) {
-
-        int minResult = (b * bc) + (w * wc);
+        long minResult = (b * bc) + (w * wc);
         if (bc > wc) {
-            for (int i = 0; i<b ; i++) {
-                int tempResult = (w * wc) + ((b-i)*wc) + (i*bc) + ((b-i)* z);
+            for (int i=0; i<=b ; i++) {
+                long tempResult = (w * wc) + ((b-i)*wc) + (i*bc) + ((b-i)* z);
                 if (tempResult < minResult) {
                     minResult = tempResult;
                 }
             }
         }
         else {
-            for (int i = 0; i<b ; i++) {
-                int tempResult = (b * bc) + ((w-i)*bc) + (i*wc) + ((w-i)* z);
+            for (int i = 0; i<=w ; i++) {
+                long tempResult = (b * bc) + ((w-i)*bc) + (i*wc) + ((w-i)* z);
                 if (tempResult < minResult) {
                     minResult = tempResult;
                 }
@@ -25,6 +24,6 @@ public class TaumBday {
         }
 
 
-        return minResult;
+        return (int) minResult;
     }
 }
