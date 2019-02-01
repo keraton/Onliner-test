@@ -11,8 +11,7 @@ public class TaumBday {
         int distance = 2;
 
         Index index = taumBdayWithDistance(b, w, bc, wc, z, distance, 0, 0);
-        if (index.index - distance > 0)
-            index = taumBdayWithDistance(b, w, bc, wc, z, 1, index.index, index.index + distance);
+        index = taumBdayWithDistance(b, w, bc, wc, z, 1, index.index, index.index + distance);
 
 
 
