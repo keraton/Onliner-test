@@ -10,7 +10,7 @@ public class TaumBday {
     static long taumBday(int b, int w, int bc, int wc, int z) {
         BigInteger minResult = valueOf(Long.MAX_VALUE);
         if (bc > wc) {
-            for (int i=0; i<=b ; i++) {
+            for (int i=b; i>=0 ; i--) {
                 BigInteger r1 = valueOf(b-i).multiply(valueOf(wc));
                 BigInteger r2 = valueOf(i).multiply(valueOf(bc));
                 BigInteger r3 = valueOf(b-i).multiply(valueOf(z));
