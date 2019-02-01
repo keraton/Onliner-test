@@ -11,6 +11,7 @@ public class TaumBday {
                 if (tempResult < minResult) {
                     minResult = tempResult;
                 }
+                System.out.println(minResult);
             }
             minResult += (w*wc);
         }
@@ -20,6 +21,7 @@ public class TaumBday {
                 if (tempResult < minResult) {
                     minResult = tempResult;
                 }
+                System.out.println(minResult);
             }
             minResult += (b*bc);
 
