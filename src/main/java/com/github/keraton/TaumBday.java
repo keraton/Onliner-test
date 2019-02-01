@@ -28,6 +28,6 @@ public class TaumBday {
         }
 
 
-        return Math.min(result1, minResult);
+        return minResult;
     }
 }
