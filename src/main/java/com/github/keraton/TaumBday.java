@@ -8,7 +8,7 @@ public class TaumBday {
 
         int minResult = 0;
         if (bc > wc) {
-            minResult = ((b+w) * wc ) + b * z;
+            minResult = result1;
             for (int i = 0; i<b ; i++) {
                 int tempResult = (w * wc) + ((b-i)*wc) + (i*bc) + ((b-i)* z);
                 if (tempResult < minResult) {
@@ -17,7 +17,7 @@ public class TaumBday {
             }
         }
         else {
-            minResult = ((b+w) * bc ) + w * z;
+            minResult = result1;
             for (int i = 0; i<b ; i++) {
                 int tempResult = (b * bc) + ((w-i)*bc) + (i*wc) + ((w-i)* z);
                 if (tempResult < minResult) {
