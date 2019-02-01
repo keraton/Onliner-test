@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="afb542dd-f654-4ff5-9915-d9f70206a3f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/keraton/TaumBday.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/keraton/TaumBday.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/keraton/TaumBdayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/keraton/TaumBdayTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,7 +45,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3191" />
+          <entry key="JAVA" value="3217" />
           <entry key="PLAIN_TEXT" value="18" />
           <entry key="XML" value="27" />
         </counts>
@@ -108,8 +107,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/TaumBdayTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="600">
-                  <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+                <state relative-caret-position="400">
+                  <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -156,8 +155,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/TaumBday.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="665">
-                      <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+                    <state relative-caret-position="367">
+                      <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
                       <folding>
                         <element signature="imports" expanded="true" />
                       </folding>
@@ -533,24 +532,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TaumBdayTest_should - 2019.02.01 at 20h 03m 31s.xml">
-      <configuration name="TaumBdayTest.should" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TaumBdayTest_should - 2019.02.01 at 20h 09m 46s.xml">
-      <configuration name="TaumBdayTest.should" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TaumBdayTest_should - 2019.02.01 at 20h 11m 49s.xml">
-      <configuration name="TaumBdayTest.should" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TaumBdayTest_should - 2019.02.01 at 20h 12m 30s.xml">
-      <configuration name="TaumBdayTest.should" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TaumBdayTest_should - 2019.02.01 at 20h 15m 24s.xml">
-      <configuration name="TaumBdayTest.should" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TaumBdayTest_should - 2019.02.01 at 20h 15m 46s.xml">
-      <configuration name="TaumBdayTest.should" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TaumBdayTest_should - 2019.02.01 at 20h 15m 58s.xml">
       <configuration name="TaumBdayTest.should" configurationId="JUnit" />
     </history-entry>
@@ -561,6 +542,24 @@
       <configuration name="TaumBdayTest.should" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TaumBdayTest_should - 2019.02.01 at 20h 18m 14s.xml">
+      <configuration name="TaumBdayTest.should" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaumBdayTest_should - 2019.02.01 at 20h 31m 01s.xml">
+      <configuration name="TaumBdayTest.should" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaumBdayTest_should - 2019.02.01 at 20h 31m 39s.xml">
+      <configuration name="TaumBdayTest.should" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaumBdayTest_should - 2019.02.01 at 20h 31m 54s.xml">
+      <configuration name="TaumBdayTest.should" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaumBdayTest_should - 2019.02.01 at 20h 32m 37s.xml">
+      <configuration name="TaumBdayTest.should" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaumBdayTest_should - 2019.02.01 at 20h 33m 12s.xml">
+      <configuration name="TaumBdayTest.should" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaumBdayTest_should - 2019.02.01 at 20h 34m 19s.xml">
       <configuration name="TaumBdayTest.should" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -578,15 +577,15 @@
       <window_info anchor="bottom" id="Educational.CheckDetails" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49705708" weight="0.32896763" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4967628" visible="true" weight="0.32896763" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49793997" weight="0.3986637" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49882284" weight="0.29583976" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50088286" side_tool="true" visible="true" weight="0.32973805" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5032372" side_tool="true" visible="true" weight="0.32896763" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32973805" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.49911714" visible="true" weight="0.32973805" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49911714" weight="0.32973805" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -604,11 +603,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="test 57" />
-    <MESSAGE value="test 58" />
-    <MESSAGE value="test 59" />
-    <MESSAGE value="test 60" />
-    <MESSAGE value="test 61" />
     <MESSAGE value="test 62" />
     <MESSAGE value="test 63" />
     <MESSAGE value="test 64" />
@@ -629,7 +623,12 @@
     <MESSAGE value="test 79" />
     <MESSAGE value="test 80" />
     <MESSAGE value="test 81" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 81" />
+    <MESSAGE value="test 82" />
+    <MESSAGE value="test 83" />
+    <MESSAGE value="test 84" />
+    <MESSAGE value="test 85" />
+    <MESSAGE value="test 86" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 86" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -727,8 +726,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/TaumBdayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="400">
+          <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -737,8 +736,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/TaumBday.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+        <state relative-caret-position="367">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
