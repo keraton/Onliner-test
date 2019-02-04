@@ -25,7 +25,7 @@ public class FluxShould {
     }
 
     @Test
-    public void subscribe2() {
+    public void subscribe_with_errors() {
         // Given
         List<Integer> elements = new ArrayList<>();
         List<Throwable> errors = new ArrayList<>();
@@ -40,8 +40,29 @@ public class FluxShould {
             .subscribe(elements::add, errors::add, () -> System.out.println("completed"));
 
         // Then
-        assertThat(elements).containsExactly(1);
+        assertThat(elements).containsExactly(1); // 3 is ignored
         assertThat(errors).hasSize(1);
+    }
+
+    @Test
+    public void subscribe2() {
+        // Given
+        List<Integer> elements = new ArrayList<>();
+        List<Throwable> errors = new ArrayList<>();
+
+        // When
+        Flux.just(1, 2, 3)
+            .log()
+            .map(i ->  {
+                if (i == 2)
+                    throw  new RuntimeException("2");
+                return i;})
+            .onErrorResumeWith(error -> Flux.empty())
+            .subscribe(elements::add, errors::add, () -> System.out.println("completed"));
+
+        // Then
+//        assertThat(elements).containsExactly(1, 3); // 3 is ignored
+//        assertThat(errors).hasSize(1);
     }
 
     @Test
