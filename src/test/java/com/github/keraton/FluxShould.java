@@ -58,14 +58,14 @@ public class FluxShould {
             .onErrorResumeWith(e -> Flux.just(0))
             .subscribe(elements::add, errors::add, () -> System.out.println("completed"));
 
-        System.out.println(elements);
-        System.out.println(errors);
+
         // Then
         assertThat(elements).containsExactly(1, 0); // 3 is ignored
         assertThat(errors).hasSize(0);
     }
 
     private Integer errorMapping(Integer i) {
+        // Error is a terminal event, you need to prevent it
         System.out.println("Common !");
         if (i == 2)
             throw new RuntimeException("2");
