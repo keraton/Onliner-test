@@ -41,7 +41,7 @@ public class FluxShould {
 
         // Then
         assertThat(elements).containsExactly(1);
-        assertThat(elements).hasSize(1);
+        assertThat(errors).hasSize(1);
     }
 
     @Test
