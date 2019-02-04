@@ -8,10 +8,10 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class FluxSolution {
+public class FluxShould {
 
     @Test
-    public void should () {
+    public void subscribe() {
         // Given
         List<Integer> elements = new ArrayList<>();
 
@@ -22,7 +22,22 @@ public class FluxSolution {
 
         // Then
         assertThat(elements).containsExactly(1, 2, 3);
+    }
 
+    @Test
+    public void filter () {
+        // Given
+        List<Integer> elements = new ArrayList<>();
+
+        // When
+        Flux.just(1, 2, 3)
+                .log()
+                .filter(i -> i % 2 == 0)
+                .log()
+                .subscribe(elements::add);
+
+        // Then
+        assertThat(elements).containsExactly(2);
     }
 
 }
