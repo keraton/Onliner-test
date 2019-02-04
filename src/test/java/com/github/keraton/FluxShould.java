@@ -56,6 +56,7 @@ public class FluxShould {
             //.onErrorReturn(0)
             .subscribe(elements::add, errors::add, () -> System.out.println("completed"));
 
+        System.out.println(elements);
         System.out.println(errors);
         // Then
 //        assertThat(elements).containsExactly(1, 3); // 3 is ignored
