@@ -53,7 +53,7 @@ public class FluxShould {
         Flux.just(1, 2, 3)
             .log()
             .map(this::errorMapping)
-            .retry(1)
+            //.retry(1)
             //.onErrorReturn(0)
             .onErrorResumeWith(e -> Flux.just(0))
             .subscribe(elements::add, errors::add, () -> System.out.println("completed"));
@@ -61,8 +61,8 @@ public class FluxShould {
         System.out.println(elements);
         System.out.println(errors);
         // Then
-//        assertThat(elements).containsExactly(1, 3); // 3 is ignored
-//        assertThat(errors).hasSize(1);
+        assertThat(elements).containsExactly(1, 0); // 3 is ignored
+        assertThat(errors).hasSize(0);
     }
 
     private Integer errorMapping(Integer i) {
