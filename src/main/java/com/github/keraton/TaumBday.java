@@ -13,8 +13,6 @@ public class TaumBday {
         Index index = taumBdayWithDistance(b, w, bc, wc, z, distance, 0, 0);
         index = taumBdayWithDistance(b, w, bc, wc, z, 1, index.index, index.index + distance);
 
-
-
         return  index.minResult.longValue();
     }
 
