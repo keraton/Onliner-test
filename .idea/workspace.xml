@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afb542dd-f654-4ff5-9915-d9f70206a3f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/github/keraton/FluxShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/keraton/FluxShould.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -47,7 +46,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4509" />
+          <entry key="JAVA" value="4511" />
           <entry key="PLAIN_TEXT" value="54" />
           <entry key="XML" value="34" />
         </counts>
@@ -83,8 +82,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/FluxShould.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="546">
-                  <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+                <state relative-caret-position="606">
+                  <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -264,7 +263,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549319513273" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549319541812" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -462,9 +461,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FluxShould - 2019.02.04 at 22h 03m 34s.xml">
-      <configuration name="FluxShould" configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="FluxShould - 2019.02.04 at 23h 12m 24s.xml">
       <configuration name="FluxShould" configurationId="AndroidJUnit" />
     </history-entry>
@@ -490,6 +486,9 @@
       <configuration name="FluxShould" configurationId="AndroidJUnit" />
     </history-entry>
     <history-entry file="FluxShould_subscribe2 - 2019.02.04 at 23h 31m 47s.xml">
+      <configuration name="FluxShould.subscribe2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FluxShould_subscribe2 - 2019.02.04 at 23h 32m 01s.xml">
       <configuration name="FluxShould.subscribe2" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -533,7 +532,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="test 85" />
     <MESSAGE value="test 86" />
     <MESSAGE value="test 87" />
     <MESSAGE value="test 88" />
@@ -558,7 +556,8 @@
     <MESSAGE value="test 107" />
     <MESSAGE value="test 108" />
     <MESSAGE value="test 109" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 109" />
+    <MESSAGE value="test 110" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 110" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -690,8 +689,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/FluxShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+        <state relative-caret-position="606">
+          <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

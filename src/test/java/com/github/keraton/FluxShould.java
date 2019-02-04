@@ -53,7 +53,7 @@ public class FluxShould {
         Flux.just(1, 2, 3)
             .log()
             .map(this::errorMapping)
-            //.onErrorReturn(0)
+            .onErrorReturn(0)
             .subscribe(elements::add, errors::add, () -> System.out.println("completed"));
 
         System.out.println(elements);
