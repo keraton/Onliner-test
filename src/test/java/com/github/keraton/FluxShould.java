@@ -25,6 +25,26 @@ public class FluxShould {
     }
 
     @Test
+    public void subscribe2() {
+        // Given
+        List<Integer> elements = new ArrayList<>();
+        List<Throwable> errors = new ArrayList<>();
+
+        // When
+        Flux.just(1, 2, 3)
+            .log()
+            .map(i ->  {
+                if (i == 2)
+                    throw  new RuntimeException("2");
+                return i;})
+            .subscribe(elements::add, errors::add, () -> System.out.println("completed"));
+
+        // Then
+        assertThat(elements).containsExactly(1);
+        assertThat(elements).hasSize(1);
+    }
+
+    @Test
     public void filter () {
         // Given
         List<Integer> elements = new ArrayList<>();
