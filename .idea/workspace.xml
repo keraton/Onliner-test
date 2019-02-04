@@ -47,7 +47,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4650" />
+          <entry key="JAVA" value="4676" />
           <entry key="PLAIN_TEXT" value="54" />
           <entry key="XML" value="34" />
         </counts>
@@ -83,8 +83,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/FluxShould.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="628">
-                  <caret line="67" column="60" selection-start-line="67" selection-start-column="60" selection-end-line="67" selection-end-column="60" />
+                <state relative-caret-position="208">
+                  <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -264,7 +264,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549319696021" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549320061262" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -292,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FluxShould.subscribe2">
+  <component name="RunManager" selected="JUnit.FluxShould">
     <configuration name="FluxShould" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="tcrsandbox" />
       <extension name="coverage">
@@ -303,21 +303,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.github.keraton" />
       <option name="MAIN_CLASS_NAME" value="com.github.keraton.FluxShould" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JumpingCloudTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tcrsandbox" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.keraton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.keraton" />
-      <option name="MAIN_CLASS_NAME" value="com.github.keraton.JumpingCloudTest" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -347,6 +332,21 @@
       <option name="MAIN_CLASS_NAME" value="com.github.keraton.EqualizeArrayTest" />
       <option name="METHOD_NAME" value="should" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FluxShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tcrsandbox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.keraton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.keraton" />
+      <option name="MAIN_CLASS_NAME" value="com.github.keraton.FluxShould" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -410,19 +410,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Android JUnit.JumpingCloudTest" />
       <item itemvalue="JUnit.EqualizeArrayTest.should" />
       <item itemvalue="JUnit.TaumBdayTest.should" />
       <item itemvalue="Android JUnit.FluxShould" />
       <item itemvalue="JUnit.FluxShould.subscribe2" />
+      <item itemvalue="JUnit.FluxShould" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FluxShould" />
         <item itemvalue="JUnit.FluxShould.subscribe2" />
         <item itemvalue="Android JUnit.FluxShould" />
         <item itemvalue="JUnit.TaumBdayTest.should" />
         <item itemvalue="JUnit.EqualizeArrayTest.should" />
-        <item itemvalue="Android JUnit.JumpingCloudTest" />
       </list>
     </recent_temporary>
   </component>
@@ -462,12 +462,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FluxShould - 2019.02.04 at 23h 22m 00s.xml">
-      <configuration name="FluxShould" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="FluxShould - 2019.02.04 at 23h 22m 27s.xml">
-      <configuration name="FluxShould" configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="FluxShould - 2019.02.04 at 23h 24m 17s.xml">
       <configuration name="FluxShould" configurationId="AndroidJUnit" />
     </history-entry>
@@ -490,6 +484,12 @@
       <configuration name="FluxShould.subscribe2" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FluxShould_subscribe2 - 2019.02.04 at 23h 38m 31s.xml">
+      <configuration name="FluxShould.subscribe2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FluxShould_subscribe2 - 2019.02.04 at 23h 40m 35s.xml">
+      <configuration name="FluxShould.subscribe2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FluxShould_subscribe2 - 2019.02.04 at 23h 40m 50s.xml">
       <configuration name="FluxShould.subscribe2" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -533,7 +533,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="test 90" />
     <MESSAGE value="test 91" />
     <MESSAGE value="test 92" />
     <MESSAGE value="test 93" />
@@ -558,7 +557,8 @@
     <MESSAGE value="test 112" />
     <MESSAGE value="test 113" />
     <MESSAGE value="test 114" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 114" />
+    <MESSAGE value="test 115" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 115" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -690,8 +690,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/FluxShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="67" column="60" selection-start-line="67" selection-start-column="60" selection-end-line="67" selection-end-column="60" />
+        <state relative-caret-position="208">
+          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

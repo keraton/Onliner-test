@@ -44,7 +44,7 @@ public class FluxShould {
     }
 
     @Test
-    public void subscribe2() {
+    public void subscribe_fallback() {
         // Given
         List<Integer> elements = new ArrayList<>();
         List<Throwable> errors = new ArrayList<>();
