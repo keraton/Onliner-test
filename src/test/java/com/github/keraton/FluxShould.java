@@ -52,12 +52,12 @@ public class FluxShould {
 
         // When
         Flux.just(1, 2, 3)
-            .log()
-            .map(i ->  {
+                .onErrorResumeWith(error -> Flux.just(0))
+                .log()
+                .map(i ->  {
                 if (i == 2)
-                    throw  new RuntimeException("2");
+                throw  new RuntimeException("2");
                 return i;})
-            .onErrorResumeWith(error -> Flux.just(0))
             .subscribe(elements::add, errors::add, () -> System.out.println("completed"));
 
         // Then
