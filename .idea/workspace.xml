@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afb542dd-f654-4ff5-9915-d9f70206a3f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/keraton/FluxSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/keraton/FluxSolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/keraton/TaumBday.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/keraton/TaumBday.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,8 +35,9 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="12" />
+          <entry key="JAVA" value="15" />
           <entry key="Terminal Session" value="6" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -46,9 +49,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3623" />
+          <entry key="JAVA" value="3792" />
           <entry key="PLAIN_TEXT" value="42" />
-          <entry key="XML" value="27" />
+          <entry key="XML" value="34" />
         </counts>
       </usages-collector>
     </session>
@@ -57,59 +60,33 @@
     <splitter split-orientation="horizontal" split-proportion="0.38076368">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/FizzBuzzTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/EqualizeArrayTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/RepeatedStringTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="200">
-                  <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/JumpingCloudTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/TaumBdayTest.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/FluxSolution.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="200">
-                  <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+                <state relative-caret-position="80">
+                  <caret line="4" selection-start-line="4" selection-end-line="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pom.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="672">
+                  <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/FluxSolutionTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="420">
+                  <caret line="21" selection-start-line="21" selection-end-line="21" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -118,65 +95,6 @@
             </entry>
           </file>
         </leaf>
-      </split-first>
-      <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.75309336">
-          <split-first>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/RepeatedString.java">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="640">
-                      <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/JumpingCloud.java">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="360">
-                      <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/EqualizeArray.java">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="460">
-                      <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-                      <folding>
-                        <element signature="imports" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/TaumBday.java">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="560">
-                      <caret line="28" column="58" lean-forward="true" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
-                      <folding>
-                        <element signature="imports" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-first>
-          <split-second>
-            <leaf>
-              <file pinned="false" current-in-tab="true">
-                <entry file="mock:///Local (1)">
-                  <provider selected="true" editor-type-id="terminal-session-editor" />
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
       </split-second>
     </splitter>
   </component>
@@ -195,7 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/keraton/FizzBuzzTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/keraton/FizzBuzz.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/keraton/RepeatedStringTest.java" />
@@ -206,6 +123,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/github/keraton/EqualizeArray.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/keraton/TaumBdayTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/keraton/TaumBday.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/keraton/FluxSolution.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/keraton/FluxSolutionTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -223,9 +143,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1280" />
+    <option name="x" value="1269" />
     <option name="y" value="23" />
-    <option name="width" value="3440" />
+    <option name="width" value="2263" />
     <option name="height" value="1413" />
   </component>
   <component name="ProjectView">
@@ -335,7 +255,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549310718169" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549313926033" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -363,7 +283,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TaumBdayTest.should">
+  <component name="RunManager" selected="Android JUnit.FluxSolutionTest">
+    <configuration name="FluxSolutionTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tcrsandbox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.keraton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.keraton" />
+      <option name="MAIN_CLASS_NAME" value="com.github.keraton.FluxSolutionTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JumpingCloudTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="tcrsandbox" />
       <extension name="coverage">
@@ -423,23 +358,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepeatedStringTest.should_repeat_string" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tcrsandbox" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.keraton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.keraton" />
-      <option name="MAIN_CLASS_NAME" value="com.github.keraton.RepeatedStringTest" />
-      <option name="METHOD_NAME" value="should_repeat_string" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TaumBdayTest.should" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tcrsandbox" />
       <extension name="coverage">
@@ -482,18 +400,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.RepeatedStringTest" />
-      <item itemvalue="JUnit.RepeatedStringTest.should_repeat_string" />
       <item itemvalue="Android JUnit.JumpingCloudTest" />
       <item itemvalue="JUnit.EqualizeArrayTest.should" />
       <item itemvalue="JUnit.TaumBdayTest.should" />
+      <item itemvalue="Android JUnit.FluxSolutionTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Android JUnit.FluxSolutionTest" />
         <item itemvalue="JUnit.TaumBdayTest.should" />
         <item itemvalue="JUnit.EqualizeArrayTest.should" />
         <item itemvalue="Android JUnit.JumpingCloudTest" />
         <item itemvalue="JUnit.RepeatedStringTest" />
-        <item itemvalue="JUnit.RepeatedStringTest.should_repeat_string" />
       </list>
     </recent_temporary>
   </component>
@@ -533,9 +451,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TaumBdayTest_should - 2019.02.01 at 20h 46m 20s.xml">
-      <configuration name="TaumBdayTest.should" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TaumBdayTest_should - 2019.02.01 at 20h 51m 16s.xml">
       <configuration name="TaumBdayTest.should" configurationId="JUnit" />
     </history-entry>
@@ -563,12 +478,15 @@
     <history-entry file="TaumBdayTest_should - 2019.02.01 at 21h 16m 35s.xml">
       <configuration name="TaumBdayTest.should" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TaumBdayTest_should - 2019.02.04 at 21h 48m 18s.xml">
+      <configuration name="TaumBdayTest.should" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="23" width="3440" height="1413" extended-state="0" />
+    <frame x="1269" y="23" width="2263" height="1413" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15479694" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23683025" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -577,13 +495,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4964685" visible="true" weight="0.32896763" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4961729" visible="true" weight="0.32896763" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49793997" weight="0.3986637" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49882284" weight="0.29583976" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5035315" side_tool="true" visible="true" weight="0.32896763" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5038271" side_tool="true" visible="true" weight="0.32896763" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32973805" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49911714" weight="0.32973805" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="11" show_stripe_button="false" />
@@ -604,7 +522,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="test 73" />
     <MESSAGE value="test 74" />
     <MESSAGE value="test 75" />
     <MESSAGE value="test 76" />
@@ -629,7 +546,8 @@
     <MESSAGE value="test 95" />
     <MESSAGE value="test 96" />
     <MESSAGE value="test 97" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 97" />
+    <MESSAGE value="test 98" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 98" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -671,13 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/JumpingCloud.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -715,16 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/EqualizeArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/TaumBday.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
@@ -742,6 +643,40 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/EqualizeArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/FluxSolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/FluxSolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
         </state>
       </provider>
     </entry>
