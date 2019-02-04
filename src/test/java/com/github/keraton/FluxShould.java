@@ -40,4 +40,20 @@ public class FluxShould {
         assertThat(elements).containsExactly(2);
     }
 
+    @Test
+    public void map () {
+        // Given
+        List<Integer> elements = new ArrayList<>();
+
+        // When
+        Flux.just(1, 2, 3)
+                .log()
+                .map(i -> i * 2)
+                .log()
+                .subscribe(elements::add);
+
+        // Then
+        assertThat(elements).containsExactly(2, 4, 6);
+    }
+
 }
