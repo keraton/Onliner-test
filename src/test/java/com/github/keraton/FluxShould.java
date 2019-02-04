@@ -2,6 +2,7 @@ package com.github.keraton;
 
 import org.junit.Test;
 import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -52,12 +53,12 @@ public class FluxShould {
 
         // When
         Flux.just(1, 2, 3)
-                .onErrorResumeWith(error -> Flux.just(0))
-                .log()
-                .map(i ->  {
+            .log()
+            .map(i ->  {
                 if (i == 2)
-                throw  new RuntimeException("2");
+                    throw  new RuntimeException("2");
                 return i;})
+            .onErrorResumeWith(error -> Mono.empty())
             .subscribe(elements::add, errors::add, () -> System.out.println("completed"));
 
         // Then
