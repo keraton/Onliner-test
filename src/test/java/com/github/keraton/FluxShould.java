@@ -53,6 +53,7 @@ public class FluxShould {
         Flux.just(1, 2, 3)
             .log()
             .map(this::errorMapping)
+            .retry(1)
             //.onErrorReturn(0)
             .onErrorResumeWith(e -> Flux.just(0))
             .subscribe(elements::add, errors::add, () -> System.out.println("completed"));
@@ -65,9 +66,10 @@ public class FluxShould {
     }
 
     private Integer errorMapping(Integer i) {
-            if (i == 2)
-                throw new RuntimeException("2");
-            return i;
+        System.out.println("Common !");
+        if (i == 2)
+            throw new RuntimeException("2");
+        return i;
     }
 
     @Test
