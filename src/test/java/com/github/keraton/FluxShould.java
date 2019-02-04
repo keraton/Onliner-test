@@ -6,6 +6,7 @@ import reactor.core.publisher.Mono;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Function;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -34,10 +35,7 @@ public class FluxShould {
         // When
         Flux.just(1, 2, 3)
             .log()
-            .map(i ->  {
-                if (i == 2)
-                    throw  new RuntimeException("2");
-                return i;})
+            .map(this::errorMapping)
             .subscribe(elements::add, errors::add, () -> System.out.println("completed"));
 
         // Then
@@ -54,16 +52,20 @@ public class FluxShould {
         // When
         Flux.just(1, 2, 3)
             .log()
-            .map(i ->  {
-                if (i == 2)
-                    throw  new RuntimeException("2");
-                return i;})
+            .map(this::errorMapping)
             .onErrorReturn(0)
             .subscribe(elements::add, errors::add, () -> System.out.println("completed"));
 
+        System.out.println(errors);
         // Then
 //        assertThat(elements).containsExactly(1, 3); // 3 is ignored
 //        assertThat(errors).hasSize(1);
+    }
+
+    private Integer errorMapping(Integer i) {
+            if (i == 2)
+                throw new RuntimeException("2");
+            return i;
     }
 
     @Test
