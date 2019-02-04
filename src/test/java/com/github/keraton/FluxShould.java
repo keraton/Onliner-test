@@ -57,7 +57,7 @@ public class FluxShould {
                 if (i == 2)
                     throw  new RuntimeException("2");
                 return i;})
-            .onErrorResumeWith(error -> Flux.empty())
+            .onErrorResumeWith(error -> Flux.just(0))
             .subscribe(elements::add, errors::add, () -> System.out.println("completed"));
 
         // Then
