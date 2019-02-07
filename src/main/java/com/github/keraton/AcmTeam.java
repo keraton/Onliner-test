@@ -4,7 +4,7 @@ public class AcmTeam {
 
     static int[] acmTeam(String... topics) {
         int maxTopics = 0;
-        int maxPersons = 1;
+        int maxPersons = 0;
         for (int i =0; i<topics.length; i++) {
             for (int j=0; j<topics.length; j++) {
                 if (i != j) {
@@ -14,6 +14,7 @@ public class AcmTeam {
                     int maxTopicsTemp = getMaxTopics(topic1, topic2);
                     if (maxTopics < maxTopicsTemp) {
                         maxTopics = maxTopicsTemp;
+                        maxPersons++;
                     }
                 }
             }
