@@ -3,10 +3,18 @@ package com.github.keraton;
 public class AcmTeam {
 
     static int[] acmTeam(String... topics) {
-        String topic1 = topics[0];
-        String topic2 = topics[1];
+        int maxTopics = 0;
+        for (int i =0; i<topics.length; i++) {
+            for (int j=0; j<topics.length; j++) {
+                if (i != j) {
+                    String topic1 = topics[i];
+                    String topic2 = topics[j];
 
-        int maxTopics = getMaxTopics(topic1, topic2);
+                    maxTopics = getMaxTopics(topic1, topic2);
+                }
+            }
+        }
+
 
         int maxPersons = 1;
         return new int[] {maxTopics, maxPersons};
