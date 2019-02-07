@@ -7,7 +7,7 @@ public class AcmTeam {
         int maxGroups = 0;
         for (int i =0; i<topics.length; i++) {
             for (int j=0; j<topics.length; j++) {
-                if (i != j) {
+                if (i<j) {
                     String topic1 = topics[i];
                     String topic2 = topics[j];
 
@@ -15,6 +15,9 @@ public class AcmTeam {
                     if (maxTopics < maxTopicsTemp) {
                         maxTopics = maxTopicsTemp;
                         maxGroups=1;
+                    }
+                    else if (maxTopics == maxTopicsTemp) {
+                        maxGroups++;
                     }
                 }
             }
