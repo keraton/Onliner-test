@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afb542dd-f654-4ff5-9915-d9f70206a3f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/keraton/AcmTeamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/keraton/AcmTeamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/keraton/AcmTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/keraton/AcmTeam.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,7 +46,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5103" />
+          <entry key="JAVA" value="5234" />
           <entry key="PLAIN_TEXT" value="82" />
           <entry key="XML" value="34" />
         </counts>
@@ -70,8 +69,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/AcmTeamTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="280">
-                  <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+                <state relative-caret-position="220">
+                  <caret line="11" selection-start-line="11" selection-end-line="11" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -129,8 +128,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/AcmTeam.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="160">
-                  <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+                <state relative-caret-position="180">
+                  <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -169,8 +168,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/github/keraton/FluxSolutionTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/keraton/FluxSolutionShould.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/keraton/FluxShould.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/keraton/AcmTeam.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/keraton/AcmTeamTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/keraton/AcmTeam.java" />
       </list>
     </option>
   </component>
@@ -496,12 +495,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FluxShould_filter - 2019.02.07 at 23h 49m 35s.xml">
-      <configuration name="FluxShould.filter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AcmTeamTest - 2019.02.07 at 23h 50m 32s.xml">
-      <configuration name="AcmTeamTest" configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="AcmTeamTest - 2019.02.07 at 23h 51m 36s.xml">
       <configuration name="AcmTeamTest" configurationId="AndroidJUnit" />
     </history-entry>
@@ -524,6 +517,12 @@
       <configuration name="AcmTeamTest" configurationId="AndroidJUnit" />
     </history-entry>
     <history-entry file="AcmTeamTest - 2019.02.08 at 00h 02m 36s.xml">
+      <configuration name="AcmTeamTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="AcmTeamTest - 2019.02.08 at 00h 16m 10s.xml">
+      <configuration name="AcmTeamTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="AcmTeamTest - 2019.02.08 at 00h 16m 58s.xml">
       <configuration name="AcmTeamTest" configurationId="AndroidJUnit" />
     </history-entry>
   </component>
@@ -567,7 +566,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="test 101" />
     <MESSAGE value="test 102" />
     <MESSAGE value="test 103" />
     <MESSAGE value="test 104" />
@@ -592,7 +590,8 @@
     <MESSAGE value="test 123" />
     <MESSAGE value="test 124" />
     <MESSAGE value="test 125" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 125" />
+    <MESSAGE value="test 126" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 126" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -743,20 +742,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/AcmTeam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/AcmTeamTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+        <state relative-caret-position="220">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/AcmTeam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
