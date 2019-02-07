@@ -12,6 +12,7 @@ public class AcmTeamTest {
         assertThat(acmTeam("1", "1")).containsExactly(1, 1);
         assertThat(acmTeam("11", "11")).containsExactly(2, 1);
         assertThat(acmTeam("10", "11")).containsExactly(2, 1);
+        assertThat(acmTeam("10", "10")).containsExactly(1, 1);
 
     }
 
