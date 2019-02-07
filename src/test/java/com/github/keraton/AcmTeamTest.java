@@ -15,6 +15,7 @@ public class AcmTeamTest {
         assertThat(acmTeam("10", "10")).containsExactly(1, 1);
 
         assertThat(acmTeam("1", "1", "1")).containsExactly(1, 3);
+        assertThat(acmTeam("10101", "11100", "11010", "00101")).containsExactly(5, 2);
         // 1,2 1,3 2,3
     }
 
