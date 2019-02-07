@@ -4,19 +4,22 @@ public class AcmTeam {
 
     static int[] acmTeam(String... topics) {
         int maxTopics = 0;
+        int maxPersons = 1;
         for (int i =0; i<topics.length; i++) {
             for (int j=0; j<topics.length; j++) {
                 if (i != j) {
                     String topic1 = topics[i];
                     String topic2 = topics[j];
 
-                    maxTopics = getMaxTopics(topic1, topic2);
+                    int maxTopicsTemp = getMaxTopics(topic1, topic2);
+                    if (maxTopics < maxTopicsTemp) {
+                        maxTopics = maxTopicsTemp;
+                    }
                 }
             }
         }
 
 
-        int maxPersons = 1;
         return new int[] {maxTopics, maxPersons};
     }
 
