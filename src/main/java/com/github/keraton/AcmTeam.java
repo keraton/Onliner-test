@@ -9,7 +9,7 @@ public class AcmTeam {
         int size = topic1.length();
         int maxTopics = 0;
         for (int i=0; i<size; i++) {
-            if (topic1.charAt(i) == topic2.charAt(i)) {
+            if (topic1.charAt(i) == '1' || topic2.charAt(i) == '1') {
                 maxTopics++;
             }
         }
