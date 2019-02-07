@@ -33,7 +33,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="15" />
+          <entry key="JAVA" value="16" />
           <entry key="Terminal Session" value="6" />
           <entry key="XML" value="1" />
         </counts>
@@ -47,7 +47,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4676" />
+          <entry key="JAVA" value="4760" />
           <entry key="PLAIN_TEXT" value="54" />
           <entry key="XML" value="34" />
         </counts>
@@ -83,10 +83,23 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/FluxShould.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="208">
-                  <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+                <state relative-caret-position="620">
+                  <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/time/Duration.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="277">
+                  <caret line="308" column="27" selection-start-line="308" selection-start-column="27" selection-end-line="308" selection-end-column="27" />
+                  <folding>
+                    <element signature="e#12166#12167#0" expanded="true" />
+                    <element signature="e#12212#12213#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -151,8 +164,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1269" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1366" />
     <option name="y" value="23" />
     <option name="width" value="2263" />
     <option name="height" value="1413" />
@@ -264,7 +277,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549320061262" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549488664109" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -292,7 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FluxShould">
+  <component name="RunManager" selected="JUnit.FluxShould.filter">
     <configuration name="FluxShould" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="tcrsandbox" />
       <extension name="coverage">
@@ -320,23 +333,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EqualizeArrayTest.should" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tcrsandbox" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.keraton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.keraton" />
-      <option name="MAIN_CLASS_NAME" value="com.github.keraton.EqualizeArrayTest" />
-      <option name="METHOD_NAME" value="should" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FluxShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tcrsandbox" />
       <extension name="coverage">
@@ -347,6 +343,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.github.keraton" />
       <option name="MAIN_CLASS_NAME" value="com.github.keraton.FluxShould" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FluxShould.filter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tcrsandbox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.keraton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.keraton" />
+      <option name="MAIN_CLASS_NAME" value="com.github.keraton.FluxShould" />
+      <option name="METHOD_NAME" value="filter" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -410,19 +423,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.EqualizeArrayTest.should" />
       <item itemvalue="JUnit.TaumBdayTest.should" />
       <item itemvalue="Android JUnit.FluxShould" />
       <item itemvalue="JUnit.FluxShould.subscribe2" />
       <item itemvalue="JUnit.FluxShould" />
+      <item itemvalue="JUnit.FluxShould.filter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FluxShould.filter" />
         <item itemvalue="JUnit.FluxShould" />
         <item itemvalue="JUnit.FluxShould.subscribe2" />
         <item itemvalue="Android JUnit.FluxShould" />
         <item itemvalue="JUnit.TaumBdayTest.should" />
-        <item itemvalue="JUnit.EqualizeArrayTest.should" />
       </list>
     </recent_temporary>
   </component>
@@ -462,12 +475,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FluxShould - 2019.02.04 at 23h 24m 17s.xml">
-      <configuration name="FluxShould" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="FluxShould - 2019.02.04 at 23h 26m 30s.xml">
-      <configuration name="FluxShould" configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="FluxShould_subscribe2 - 2019.02.04 at 23h 31m 47s.xml">
       <configuration name="FluxShould.subscribe2" configurationId="JUnit" />
     </history-entry>
@@ -492,12 +499,17 @@
     <history-entry file="FluxShould_subscribe2 - 2019.02.04 at 23h 40m 50s.xml">
       <configuration name="FluxShould.subscribe2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FluxShould - 2019.02.04 at 23h 41m 13s.xml">
+      <configuration name="FluxShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FluxShould_filter - 2019.02.04 at 23h 51m 24s.xml">
+      <configuration name="FluxShould.filter" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1269" y="23" width="2263" height="1413" extended-state="0" />
-    <editor active="true" />
+    <frame x="1280" y="23" width="3440" height="1413" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23683025" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15479694" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -506,13 +518,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4961729" visible="true" weight="0.32896763" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4964685" visible="true" weight="0.32896763" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49793997" weight="0.3986637" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49882284" weight="0.29583976" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5038271" side_tool="true" visible="true" weight="0.32896763" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5035315" side_tool="true" visible="true" weight="0.32896763" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32973805" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49911714" weight="0.32973805" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="11" show_stripe_button="false" />
@@ -533,7 +545,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="test 91" />
     <MESSAGE value="test 92" />
     <MESSAGE value="test 93" />
     <MESSAGE value="test 94" />
@@ -558,7 +569,8 @@
     <MESSAGE value="test 113" />
     <MESSAGE value="test 114" />
     <MESSAGE value="test 115" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 115" />
+    <MESSAGE value="test 116" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 116" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -688,10 +700,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/time/Duration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="308" column="27" selection-start-line="308" selection-start-column="27" selection-end-line="308" selection-end-column="27" />
+          <folding>
+            <element signature="e#12166#12167#0" expanded="true" />
+            <element signature="e#12212#12213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/FluxShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+        <state relative-caret-position="620">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
