@@ -9,6 +9,7 @@ public class AcmTeamTest {
         // Given
 
         // When
+        AcmTeam.acmTeam();
 
         // Then
 

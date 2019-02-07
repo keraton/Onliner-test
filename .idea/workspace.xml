@@ -277,7 +277,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549488664109" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549579826796" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -305,7 +305,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FluxShould.filter">
+  <component name="RunManager" selected="Android JUnit.AcmTeamTest">
+    <configuration name="AcmTeamTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tcrsandbox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.keraton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.keraton" />
+      <option name="MAIN_CLASS_NAME" value="com.github.keraton.AcmTeamTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FluxShould" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="tcrsandbox" />
       <extension name="coverage">
@@ -382,23 +397,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaumBdayTest.should" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tcrsandbox" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.keraton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.keraton" />
-      <option name="MAIN_CLASS_NAME" value="com.github.keraton.TaumBdayTest" />
-      <option name="METHOD_NAME" value="should" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -423,19 +421,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TaumBdayTest.should" />
       <item itemvalue="Android JUnit.FluxShould" />
       <item itemvalue="JUnit.FluxShould.subscribe2" />
       <item itemvalue="JUnit.FluxShould" />
       <item itemvalue="JUnit.FluxShould.filter" />
+      <item itemvalue="Android JUnit.AcmTeamTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Android JUnit.AcmTeamTest" />
         <item itemvalue="JUnit.FluxShould.filter" />
         <item itemvalue="JUnit.FluxShould" />
         <item itemvalue="JUnit.FluxShould.subscribe2" />
         <item itemvalue="Android JUnit.FluxShould" />
-        <item itemvalue="JUnit.TaumBdayTest.should" />
       </list>
     </recent_temporary>
   </component>
