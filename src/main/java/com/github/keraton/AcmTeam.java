@@ -3,6 +3,8 @@ package com.github.keraton;
 public class AcmTeam {
 
     static int[] acmTeam(String... topic) {
-        return new int[] {1, 1};
+        int maxTopics = 1;
+        int maxPersons = 1;
+        return new int[] {maxTopics, maxPersons};
     }
 }
