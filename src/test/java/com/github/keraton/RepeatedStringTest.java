@@ -16,8 +16,8 @@ class RepeatedStringTest {
 
     static Stream<Arguments> source() {
         return Stream.of(
-                of(1, 1, 2),
-                of(2, 3, 5)
+                of("compare ", 1, 2),
+                of("compare 2", 3, 5)
         );
     }
 
