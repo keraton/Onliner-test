@@ -25,7 +25,7 @@ class RepeatedStringTest {
     @DisplayName("Should repeat string")
     @ParameterizedTest(name = " {index} => \"{0}\"")
     @MethodSource("source")
-    void should_repeat_string() {
+    void should_repeat_string(String description, int a, int b) {
         // When
         assertEquals(1, repeatedString("a", 1));
         assertEquals(2, repeatedString("aa", 2));
