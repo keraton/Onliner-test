@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afb542dd-f654-4ff5-9915-d9f70206a3f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/keraton/AcmTeamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/keraton/AcmTeamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/keraton/EqualizeArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/keraton/EqualizeArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/keraton/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/keraton/FizzBuzzTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/keraton/FluxShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/keraton/FluxShould.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/keraton/JumpingCloudTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/keraton/JumpingCloudTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/github/keraton/RepeatedStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/keraton/RepeatedStringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/keraton/TaumBdayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/keraton/TaumBdayTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,7 +46,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5259" />
+          <entry key="JAVA" value="5266" />
           <entry key="PLAIN_TEXT" value="82" />
           <entry key="XML" value="45" />
         </counts>
@@ -62,9 +54,18 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.38076368">
+    <splitter split-orientation="horizontal" split-proportion="0.4905989">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/RepeatedString.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="160">
+                  <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/FluxSolution.java">
               <provider selected="true" editor-type-id="text-editor">
@@ -74,11 +75,47 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/AcmTeamTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+                <state relative-caret-position="180">
+                  <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/EqualizeArrayTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/RepeatedStringTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="200">
+                  <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/TaumBdayTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -93,63 +130,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pom.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="540">
+                <state relative-caret-position="398">
                   <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/JumpingCloudTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="40">
-                  <caret line="2" selection-start-line="2" selection-end-line="2" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/FluxShould.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-734">
-                  <caret line="31" selection-start-line="31" selection-end-line="31" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/time/Duration.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="277">
-                  <caret line="308" column="27" selection-start-line="308" selection-start-column="27" selection-end-line="308" selection-end-column="27" />
-                  <folding>
-                    <element signature="e#12166#12167#0" expanded="true" />
-                    <element signature="e#12212#12213#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.0.5.RELEASE/reactor-core-3.0.5.RELEASE.jar!/reactor/core/publisher/Flux.class">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="277">
-                  <caret line="1091" column="29" selection-start-line="1091" selection-start-column="29" selection-end-line="1091" selection-end-column="29" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/AcmTeam.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="440">
-                  <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -175,7 +157,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/github/keraton/FizzBuzzTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/keraton/FizzBuzz.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/github/keraton/RepeatedStringTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/keraton/RepeatedString.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/keraton/JumpingCloud.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/keraton/EqualizeArrayTest.java" />
@@ -190,6 +171,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/github/keraton/AcmTeamTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/keraton/JumpingCloudTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/keraton/RepeatedStringTest.java" />
       </list>
     </option>
   </component>
@@ -318,7 +300,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549789874484" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549790454468" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -564,7 +546,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49882284" weight="0.29583976" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50029427" side_tool="true" visible="true" weight="0.32973805" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5038258" side_tool="true" visible="true" weight="0.32896763" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32973805" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49911714" weight="0.32973805" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="11" show_stripe_button="false" />
@@ -617,7 +599,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/github/keraton/RepeatedStringTest.java</url>
-          <line>17</line>
+          <line>13</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -637,15 +619,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/RepeatedString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="160">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/RepeatedStringTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -671,8 +653,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/EqualizeArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state relative-caret-position="180">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -691,8 +673,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/TaumBdayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="180">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -763,8 +745,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/keraton/AcmTeamTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="180">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -773,7 +755,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="398">
           <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
         </state>
       </provider>

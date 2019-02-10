@@ -1,13 +1,30 @@
 package com.github.keraton;
 
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+
+import java.util.stream.Stream;
 
 import static com.github.keraton.RepeatedString.repeatedString;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.params.provider.Arguments.of;
 
 class RepeatedStringTest {
 
-    @Test
+
+    static Stream<Arguments> source() {
+        return Stream.of(
+                of(1, 1, 2),
+                of(2, 3, 5)
+        );
+    }
+
+
+    @DisplayName("Should repeat string")
+    @ParameterizedTest(name = "{0}")
+    @MethodSource("source")
     void should_repeat_string() {
         // When
         assertEquals(1, repeatedString("a", 1));
