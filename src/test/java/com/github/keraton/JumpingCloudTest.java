@@ -5,10 +5,10 @@ import org.junit.jupiter.api.Test;
 import static com.github.keraton.JumpingCloud.jumpingOnClouds;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class JumpingCloudTest {
+class JumpingCloudTest {
 
     @Test
-    public void should () {
+    void should() {
 
         assertEquals(1, jumpingOnClouds(0, 0));
         assertEquals(1, jumpingOnClouds(0, 0, 0));

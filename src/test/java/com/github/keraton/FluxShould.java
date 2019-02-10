@@ -8,10 +8,10 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class FluxShould {
+class FluxShould {
 
-    @org.junit.jupiter.api.Test
-    public void subscribe() {
+    @Test
+    void subscribe() {
         // Given
         List<Integer> elements = new ArrayList<>();
 
@@ -24,8 +24,8 @@ public class FluxShould {
         assertThat(elements).containsExactly(1, 2, 3);
     }
 
-    @org.junit.jupiter.api.Test
-    public void subscribe_with_errors() {
+    @Test
+    void subscribe_with_errors() {
         // Given
         List<Integer> elements = new ArrayList<>();
         List<Throwable> errors = new ArrayList<>();
@@ -42,7 +42,7 @@ public class FluxShould {
     }
 
     @Test
-    public void subscribe_fallback() {
+    void subscribe_fallback() {
         // Given
         List<Integer> elements = new ArrayList<>();
         List<Throwable> errors = new ArrayList<>();
@@ -70,8 +70,8 @@ public class FluxShould {
         return i;
     }
 
-    @org.junit.jupiter.api.Test
-    public void filter () {
+    @Test
+    void filter() {
         // Given
         List<Integer> elements = new ArrayList<>();
 
@@ -86,8 +86,8 @@ public class FluxShould {
         assertThat(elements).containsExactly(2);
     }
 
-    @org.junit.jupiter.api.Test
-    public void map () {
+    @Test
+    void map() {
         // Given
         List<Integer> elements = new ArrayList<>();
 

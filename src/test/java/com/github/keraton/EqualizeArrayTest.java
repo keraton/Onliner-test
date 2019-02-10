@@ -5,10 +5,10 @@ import org.junit.jupiter.api.Test;
 import static com.github.keraton.EqualizeArray.equalizeArray;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class EqualizeArrayTest {
+class EqualizeArrayTest {
 
     @Test
-    public void should () {
+    void should() {
         // Given
 
         // When

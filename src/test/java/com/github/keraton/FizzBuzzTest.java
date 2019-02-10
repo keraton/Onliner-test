@@ -5,10 +5,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class FizzBuzzTest {
+class FizzBuzzTest {
 
     @Test
-    public void should () {
+    void should() {
         // Given
         FizzBuzz fizzBuzz = new FizzBuzz();
 

@@ -5,10 +5,10 @@ import org.junit.jupiter.api.Test;
 import static com.github.keraton.TaumBday.taumBday;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TaumBdayTest {
+class TaumBdayTest {
 
     @Test
-    public void should() {
+    void should() {
         // Given
 
         System.out.println(taumBday(1, 1, 10, 1, 1));
