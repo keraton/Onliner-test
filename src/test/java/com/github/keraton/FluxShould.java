@@ -1,6 +1,6 @@
 package com.github.keraton;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Flux;
 
 import java.util.ArrayList;
@@ -10,7 +10,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class FluxShould {
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void subscribe() {
         // Given
         List<Integer> elements = new ArrayList<>();
@@ -24,7 +24,7 @@ public class FluxShould {
         assertThat(elements).containsExactly(1, 2, 3);
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void subscribe_with_errors() {
         // Given
         List<Integer> elements = new ArrayList<>();
@@ -70,7 +70,7 @@ public class FluxShould {
         return i;
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void filter () {
         // Given
         List<Integer> elements = new ArrayList<>();
@@ -86,7 +86,7 @@ public class FluxShould {
         assertThat(elements).containsExactly(2);
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void map () {
         // Given
         List<Integer> elements = new ArrayList<>();

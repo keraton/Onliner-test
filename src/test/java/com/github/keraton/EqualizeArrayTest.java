@@ -1,9 +1,9 @@
 package com.github.keraton;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static com.github.keraton.EqualizeArray.equalizeArray;
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class EqualizeArrayTest {
 

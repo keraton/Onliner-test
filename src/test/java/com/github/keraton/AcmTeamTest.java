@@ -1,6 +1,6 @@
 package com.github.keraton;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static com.github.keraton.AcmTeam.acmTeam;
 import static org.assertj.core.api.Assertions.assertThat;
