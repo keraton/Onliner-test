@@ -23,7 +23,7 @@ class RepeatedStringTest {
 
 
     @DisplayName("Should repeat string")
-    @ParameterizedTest(name = " {index} => {arguments}")
+    @ParameterizedTest(name = " {index} => \"{0}\"")
     @MethodSource("source")
     void should_repeat_string() {
         // When
