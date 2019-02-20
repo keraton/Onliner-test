@@ -16,8 +16,7 @@ class RepeatedStringTest {
 
     static Stream<Arguments> source() {
         return Stream.of(
-                of("compare ", 1, 2),
-                of("compare 2", 3, 5)
+                of("compare ", (Runnable) () -> assertEquals(1, repeatedString("a", 1)))
         );
     }
 
@@ -25,9 +24,11 @@ class RepeatedStringTest {
     @DisplayName("Should repeat string")
     @ParameterizedTest(name = "\"{0}\"")
     @MethodSource("source")
-    void should_repeat_string(String description, int a, int b) {
+    void should_repeat_string(String description, Runnable testRunner) {
+        // Run
+        testRunner.run();
+
         // When
-        assertEquals(1, repeatedString("a", 1));
         assertEquals(2, repeatedString("aa", 2));
         assertEquals(1, repeatedString("ab", 2));
         assertEquals(3, repeatedString("aaa", 3));
