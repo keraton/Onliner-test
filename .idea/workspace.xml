@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afb542dd-f654-4ff5-9915-d9f70206a3f1" name="Default Changelist" comment="" />
+    <list default="true" id="afb542dd-f654-4ff5-9915-d9f70206a3f1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +47,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="5414" />
-          <entry key="PLAIN_TEXT" value="82" />
+          <entry key="PLAIN_TEXT" value="95" />
           <entry key="XML" value="45" />
         </counts>
       </usages-collector>
@@ -222,7 +224,7 @@
                 <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/oneliner/OneLinerAssertions.java">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="408">
-                      <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+                      <caret line="24" selection-start-line="24" selection-end-line="24" />
                       <folding>
                         <element signature="e#120#121#0" expanded="true" />
                         <element signature="e#174#175#0" expanded="true" />
@@ -310,8 +312,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="jar://$MAVEN_REPOSITORY$/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1-sources.jar!/org/assertj/core/api/AbstractCharSequenceAssert.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="419">
-                      <caret line="513" column="14" selection-start-line="513" selection-start-column="14" selection-end-line="513" selection-end-column="14" />
+                    <state relative-caret-position="385">
+                      <caret line="511" column="88" selection-start-line="511" selection-start-column="88" selection-end-line="511" selection-end-column="88" />
                     </state>
                   </provider>
                 </entry>
@@ -395,70 +397,6 @@
             </path>
             <path>
               <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcrsandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcrsandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcrsandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcrsandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcrsandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="keraton" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcrsandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="keraton" type="462c0819:PsiDirectoryNode" />
-              <item name="oneliner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcrsandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tcrsandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcrsandbox" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -470,7 +408,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549790874501" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563917576181" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -662,7 +600,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548058034740</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Delete target">
+      <created>1563917565291</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563917565291</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -701,7 +646,7 @@
     <frame x="0" y="23" width="3440" height="1413" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1974691" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1974691" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -710,7 +655,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4997057" weight="0.32973805" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49617422" visible="true" weight="0.32896763" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49617422" visible="true" weight="0.32896763" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49793997" weight="0.3986637" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -767,7 +712,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="test 111" />
     <MESSAGE value="test 112" />
     <MESSAGE value="test 113" />
     <MESSAGE value="test 114" />
@@ -792,7 +736,8 @@
     <MESSAGE value="test 133" />
     <MESSAGE value="test 134" />
     <MESSAGE value="test 135" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 135" />
+    <MESSAGE value="Delete target" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete target" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -845,17 +790,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/keraton/oneliner/OneLinerAssertions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#120#121#0" expanded="true" />
             <element signature="e#174#175#0" expanded="true" />
@@ -866,6 +804,20 @@
             <element signature="e#458#459#0" expanded="true" />
             <element signature="e#508#509#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1-sources.jar!/org/assertj/core/api/AbstractCharSequenceAssert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="511" column="88" selection-start-line="511" selection-start-column="88" selection-end-line="511" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
