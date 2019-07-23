@@ -1,5 +1,4 @@
 
-.idea/
+.idea/*
 tcrsandbox.iml
 target/*
-/.idea/workspace.xml
