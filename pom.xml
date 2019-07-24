@@ -20,11 +20,7 @@
 
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <configuration>
-                    <properties>
-                        <includeTags>junit5</includeTags>
-                    </properties>
-                </configuration>
+                <version>2.22.1</version>
             </plugin>
         </plugins>
     </build>
