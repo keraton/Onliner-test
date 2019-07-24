@@ -281,3 +281,7 @@ This is provided by OneLinerAssertions class.
 With OneLinerAssertions we omit the `() ->`. 
 The inconvenient of OneLinerAssertions is that they are not complete as normal AssertJ assertions (But we are working on it).
 
+### Contributing
+
+You are welcome to contribute, we need to add as much as possible assertions adaptation.
+You can create a pull request and we will review and merge them.   
