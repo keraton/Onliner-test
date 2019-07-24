@@ -1,5 +1,5 @@
 # Onliner Test
-
+> More tests, less ceremony
 ## TL;DR
 
 ### Code
