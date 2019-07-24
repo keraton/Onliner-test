@@ -267,7 +267,7 @@ Currently we are supporting three different styles.
 
 Both BDD and Rspec let you to write a nested test.
 
-### Assertions.
+### Assertions
 
 You can use lambda executable method. 
 Using lambda let you to have a more flexible way to write your test.
