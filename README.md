@@ -274,9 +274,7 @@ Using lambda let you to have a more flexible way to write your test.
 And you don't have to use assertJ as your assertion library.
 However, in Java you will have to write the lambda ceremony `() ->`.
 Kotlin have better syntax dealing with lambda.
-Instead of having `() ->` we use 
-
-`test("some description"") { assertThat() ..}`
+Instead of having `() ->` we can use `test("some description"") { assertThat() ..}`
 
 We are providing a large assertion builder.
 This is provided by OneLinerAssertions class.
