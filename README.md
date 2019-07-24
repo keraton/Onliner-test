@@ -2,7 +2,7 @@
 
 ## TL;DR
 
-### Example
+### Code
 
 For the impatient, this lib let you to write test like this.
 ```
@@ -27,7 +27,7 @@ And you will have for each line a valid self description test.
 
 ### Why ?
 
-No ceremony
+No ceremony !!
 
 ## Motivation
 A good test should test one and only one use case at one time.
